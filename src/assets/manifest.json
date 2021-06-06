@@ -1,0 +1,72 @@
+{
+  "id": "au.com.itcsolutions.cheirrs",
+  "version": "0.0.1",
+  "version_code": 1,
+  "name": "CHEIRRS",
+  "short_name": "CHEIRRS",
+  "short_description": "Social & Affordable Housing Enterprise DApp",
+  "description": "Full Enterprise DApp for your Housing Organisation.",
+  "start_url": "index.html",
+  "type": "app",
+  "start_visible": "hide",
+  "category": "finance",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "author": {
+    "name": "John L Olsen",
+    "email": "john@itcsolutions.com.au",
+    "website": "www.itcsolutions.com.au"
+  },
+  "default_locale": "en",
+  "plugins": [
+    "Device",
+    "NetworkStatus"
+  ],
+  "urls": [
+    "https://www.itcsolutions.com.au/*",
+    "https://www.elastos.org/*",
+    "10.80.202.223:443/*",
+    "10.80.202.223:9000/*",
+    "10.80.202.223:80/*",
+    "10.80.202.223:21334/*",
+    "10.80.202.223:20333/*",
+    "10.80.202.223:20334/*",
+    "10.80.202.223:20335/*",
+    "10.80.202.223:20336/*",
+    "10.80.202.223:20337/*",
+    "10.80.202.223:20338/*",
+    "10.80.202.223:20339/*",
+    "10.80.202.223:21336/*",
+    "10.80.202.223:21604/*",
+    "10.80.202.223:20604/*",
+    "10.80.202.223:20605/*",
+    "10.80.202.223:20606/*",
+    "10.80.202.223:20607/*",
+    "10.80.202.223:20608/*",
+    "10.80.202.223:21606/*",
+    "10.80.202.223:21614/*",
+    "10.80.202.223:20614/*",
+    "10.80.202.223:20615/*",
+    "10.80.202.223:20616/*",
+    "10.80.202.223:20617/*",
+    "10.80.202.223:20618/*",
+    "10.80.202.223:21616/*",
+    "10.80.202.223:20635/*",
+    "10.80.202.223:20638/*",
+    "10.80.202.223:21634/*",
+    "10.80.202.223:21636/*"
+    ],
+  "background_color": "#4e8ef7",
+  "theme_display": "show",
+  "theme_color": "#4e8ef7"
+}

@@ -1,0 +1,176 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Service Requests & My Tasks</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+
+  <ion-list>
+    <ion-radio-group
+      allow-empty-selection = "true"
+      name="radio-group"
+      (ionChange)="radioGroupChange($event)"
+    >
+      <ion-list-header>
+        <ion-label color="primary"><b>Internal Service Requests & Responses Received and my Own Tasks</b></ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-textarea rows="4" cols="100" placeholder="List/Details of requests & responses received and own tasks"></ion-textarea>
+      </ion-item>
+      <ion-item 
+      *ngFor="let item of radio_list" 
+      (ionFocus)="radioFocus()"
+      (ionSelect)="radioSelect($event)"
+      (ionBlur)="radioBlur()"
+      >
+        <ion-label>{{item.text}}</ion-label>
+        <ion-radio 
+        slot="start" 
+        name="{{item.name}}" 
+        value="{{item.value}}" 
+        checked="{{item.checked}}" 
+        color="{{item.color}}" 
+        disabled="{{item.disabled}}"
+        ></ion-radio>
+      </ion-item>
+  
+    </ion-radio-group>
+  </ion-list>
+ 
+  <ion-item>
+    <ion-button size="small" color="primary" slot="end">View marked task</ion-button> 
+
+    <ion-button class="button1" color="secondary" size="medium" slot="end">Copy Task to Response Form</ion-button>
+
+    <ion-button size="small" color="tertiary" slot="end">Mark Task Complete</ion-button>
+  </ion-item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    <ion-grid>
+    <ion-row>
+<ion-col size="6"> 
+  <ion-text color="tertiary">
+    <ion-label><b>Your entire archive is always available to search from, so use begin-date filter, below, carefully!</b>                              </ion-label>
+  </ion-text>
+</ion-col><ion-col size="6"> 
+    <ion-text color="primary">
+      <ion-label><b>Searching Assignors & Assignees:<br></b>Please <strong>use any quoted hints without the quotes</strong> - put <b>Bob + Dylan</b>, or even <b><br>Alice + St John, Isaac + Thorpe</b>- (the latter comma-separated for 2 selectees). <b>'me'</b> can be assignor, assignee or both. <b>NOT(me)</b> or <b>NOT(whatever)</b> are all possible. <b>Group + whatever</b> is possible also, including <b>NOT(Group + whatever)</b> and <b>NOT(Group + group1, Group + group2, etc)</b>. You get everyone/every message group/role/team in your company not included within the "NOT" brackets. However you get the NOT set which intersects any other fields in the search, ie any field will reduce the returned set from all other fields in the filter (as appropriate), including any "NOT" fields. Use NOT with great care!<br>(Role + role1, Role + role2) is fine as is (Role + role1, Group + group1), for example.<br>Look in the Human Resources menu for groups, teams, employees and roles.</ion-label></ion-text>
+</ion-col></ion-row>                                                                                
+</ion-grid>     
+  <ion-item>
+    <ion-text color="secondary">
+    <ion-label>Filter Tasks Archive</ion-label></ion-text>&nbsp;
+    <ion-input placeholder="(Assignors:) Alice + St John"></ion-input>
+    <ion-input placeholder="(Assignees:) Group + Property Managers"></ion-input>
+    </ion-item>
+  
+  <ion-item>
+    <ion-text color="secondary">
+    <ion-label>You can use<br>comma-separated<br>lists of names,<br>phrases etc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ion-label>
+  </ion-text>
+    <ion-input placeholder=" Tasks by id"></ion-input>
+    <ion-input placeholder=" Tasks by Word or Phrase"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-button size="large">Filter</ion-button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ion-input placeholder=" Links by (partial) Filename"></ion-input>
+    <ion-input placeholder=" 'Complete'/ 'Not Complete'"></ion-input>  
+    <ion-input placeholder=" 'resp' or 'SRQ'"></ion-input>  
+  </ion-item>
+    <ion-item>
+      <ion-text color="danger">
+      <ion-label color="dark-tint">Use Begin-Date Filter Here!</ion-label></ion-text>
+      &nbsp;&nbsp;&nbsp;<ion-datetime color="tertiary" displayFormat="DD MM YYYY" pickerFormat="DD MM YYYY" value="today"></ion-datetime>
+    </ion-item>
+    <ion-button expand="block">Clear Form</ion-button>
+    <ion-list>
+      <ion-radio-group
+        allow-empty-selection = "true"
+        name="radio-group2"
+        (ionChange)="radioGroupChange($event)"
+      >
+
+      <ion-item>
+        <ion-button size="medium"color="tertiary" slot="start">Issue Internal Service Request or Response</ion-button>
+        <ion-input placeholder=" Originating SRQ id (if response)"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-textarea placeholder="Files Linked"></ion-textarea>
+        </ion-item>
+        <ion-item>
+          <ion-button size="medium" color="secondary" slot="end">Clear from End</ion-button>
+        <ion-button size="medium" color="light" color="tertiary" slot="end">Link File(s)</ion-button>
+      </ion-item>
+        <ion-item>
+          <ion-textarea placeholder="Recipients Selected"></ion-textarea>
+        </ion-item>
+      <ion-item>
+        <ion-button size="medium"color="secondary" slot="end">Clear from End</ion-button>
+        <ion-button size="medium" color="light" color="tertiary" slot="end">Select Recipient(s)</ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-textarea rows="4" cols="100" placeholder="Enter message .."></ion-textarea>
+      </ion-item>
+      <ion-button expand="block" color="primary">Clear Form</ion-button>
+      <ion-button disabled="true" expand="block" color="primary"></ion-button>
+        <ion-list-header>
+          <ion-label color="primary"><b>Internal Service Requests and Responses Sent</b></ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-textarea rows="4" cols="100" placeholder="List/Details of requests/responses sent"></ion-textarea>
+        </ion-item>
+        <ion-item 
+        *ngFor="let item of radio_list2" 
+        (ionFocus)="radioFocus()"
+        (ionSelect)="radioSelect($event)"
+        (ionBlur)="radioBlur()"
+        >
+          <ion-label>{{item.text}}</ion-label>
+          <ion-radio 
+          slot="start" 
+          name="{{item.name}}" 
+          value="{{item.value}}" 
+          checked="{{item.checked}}" 
+          color="{{item.color}}" 
+          disabled="{{item.disabled}}"
+          ></ion-radio>
+        </ion-item>
+    
+      </ion-radio-group>
+    </ion-list>
+      <ion-item>
+        <ion-text color="tertiary">
+        <ion-label>Filter Requests Sent</ion-label></ion-text>
+        <ion-input placeholder="(Assignees:) Alice + St John, Group + Sales, Group + Property Managers, Isaac + Thorpe"></ion-input>
+        </ion-item>
+      
+      <ion-item>
+        <ion-text color="tertiary">
+        <ion-label>You can use<br>comma-separated<br>lists of names,<br>phrases etc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ion-label>
+      </ion-text>
+        <ion-input placeholder=" SRQ/resp sent by SRQid"></ion-input>
+        <ion-input placeholder=" SRQ/resp  by selectee(s)"></ion-input>
+        <ion-input placeholder=" SRQ/resp by Word or Phrase"></ion-input>
+      </ion-item>
+        <ion-item>
+        <ion-button size="large" color="tertiary">Filter</ion-button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <ion-input placeholder=" Links by (partial) Filename"></ion-input>
+        <ion-input placeholder=" 'Complete'/ 'Not Complete'"></ion-input>  
+        <ion-input placeholder=" 'resp' or 'SRQ'"></ion-input>  
+      </ion-item>
+        <ion-item>
+          <ion-text color="danger">
+          <ion-label color="dark-tint">Use Begin-Date Filter Here!</ion-label></ion-text>
+          &nbsp;&nbsp;&nbsp;<ion-datetime color="tertiary" displayFormat="DD MM YYYY" pickerFormat="DD MM YYYY" value="today"></ion-datetime>
+        </ion-item>
+        <ion-item>
+          &nbsp;&nbsp;<ion-button size="medium" color="secondary">View Selected Req/Resp</ion-button>
+        <ion-button size="medium">Send Selected Req/Resp to Response Form</ion-button>
+       </ion-item>
+          <ion-button expand="block" color="tertiary">Clear Form</ion-button>
+          <ion-button expand="block" disabled="true"></ion-button>
+      </ion-content>

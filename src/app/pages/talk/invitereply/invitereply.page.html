@@ -1,0 +1,170 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button defaulthref=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Invite and Reply</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+
+
+  <ion-list>
+    <ion-radio-group
+      allow-empty-selection = "true"
+      name="radio-group"
+      (ionChange)="radioGroupChange($event)"
+    >
+      <ion-list-header>
+        <ion-label color="tertiary"><b>Invitations Sent & Replies Received</b></ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-textarea rows="4" cols="100" placeholder="details of invitations sent & replies received"></ion-textarea>
+      </ion-item>
+      <ion-item 
+      *ngFor="let item of radio_list" 
+      (ionFocus)="radioFocus()"
+      (ionSelect)="radioSelect($event)"
+      (ionBlur)="radioBlur()"
+      >
+        <ion-label>{{item.text}}</ion-label>
+        <ion-radio 
+        slot="start" 
+        name="{{item.name}}" 
+        value="{{item.value}}" 
+        checked="{{item.checked}}" 
+        color="{{item.color}}" 
+        disabled="{{item.disabled}}"
+        ></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  <ion-item>
+  <ion-button size="medium"color="primary" slot="end">View marked item</ion-button>
+  <ion-button size="medium"color="tertiary" slot="end">Reply to this item</ion-button>
+</ion-item>
+  <ion-item>
+    <ion-label color="tertiary">Your entire archive is always available to search<br>from, so use begin-date filter, below, carefully!<br>Also please check note on Tasks page regarding<br>usage of names & quoted hints eg NOT(me)</ion-label>
+    <ion-button size="medium"color="tertiary" slot="end">Archive marked items</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-text color="primary">
+    <ion-label>Filter Invitations & Replies&nbsp;&nbsp;&nbsp;</ion-label></ion-text>
+    <ion-input placeholder="Authors - First '+' Last Name or 'NOT(me)'"></ion-input>
+    <ion-input placeholder="Recipients by First '+' Last Name"></ion-input>
+    </ion-item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+  <ion-item>
+    <ion-text color="primary">
+    <ion-label>You can use<br>comma-separated<br>lists of names,<br>phrases etc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ion-label>
+  </ion-text>
+    <ion-input placeholder="Invitation Headers by Word or Phrase"></ion-input>
+    <ion-input placeholder="Invitation Body by Word or Phrase"></ion-input> 
+  </ion-item>
+    <ion-item>
+    <ion-button>Filter</ion-button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ion-input placeholder="Links by Filename with extension"></ion-input>
+    <ion-input placeholder="Invitations by 'Archived' or 'Not Archived'"></ion-input>
+  </ion-item>
+    <ion-item>
+      <ion-text color="primary">
+      <ion-label color="dark-tint">Use Begin-Date Filter Here!</ion-label></ion-text>
+      &nbsp;&nbsp;&nbsp;<ion-datetime color="tertiary" displayFormat="DD MM YYYY" pickerFormat="DD MM YYYY" value="today"></ion-datetime>
+    </ion-item>
+    <ion-button expand="block">Clear Form</ion-button>
+
+
+
+    <ion-list>
+      <ion-radio-group
+        allow-empty-selection = "true"
+        name="radio-group"
+        (ionChange)="radioGroupChange($event)"
+      >
+    <ion-list-header>
+      <ion-label color="tertiary"><b>Invitations Received & Replies Sent</b></ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-textarea rows="4" cols="100" placeholder="details of invitations received & replies sent"></ion-textarea>
+    </ion-item>
+    <ion-item 
+    *ngFor="let item of radio_list" 
+    (ionFocus)="radioFocus()"
+    (ionSelect)="radioSelect($event)"
+    (ionBlur)="radioBlur()"
+    >
+      <ion-label>{{item.text}}</ion-label>
+      <ion-radio 
+      slot="start" 
+      name="{{item.name}}" 
+      value="{{item.value}}" 
+      checked="{{item.checked}}" 
+      color="{{item.color}}" 
+      disabled="{{item.disabled}}"
+      ></ion-radio>
+    </ion-item>
+  </ion-radio-group>
+</ion-list>
+<ion-item>
+<ion-button size="medium"color="primary" slot="end">View marked item</ion-button>
+<ion-button size="medium"color="tertiary" slot="end">Reply to this item</ion-button>
+</ion-item>
+<ion-item>
+  <ion-label color="tertiary">Your entire archive is always available to search<br>from, so use begin-date filter, below, carefully!<br>Also please check note on Tasks page regarding<br>usage of names & quoted hints eg NOT(me)</ion-label>
+  <ion-button size="medium"color="tertiary" slot="end">Archive marked items</ion-button>
+</ion-item>
+<ion-item>
+  <ion-text color="primary">
+  <ion-label>Filter Invitations & Replies&nbsp;&nbsp;&nbsp;</ion-label></ion-text>
+  <ion-input placeholder="Authors - First '+' Last Name or 'NOT(me)'"></ion-input>
+  <ion-input placeholder="Recipients by First '+' Last Name"></ion-input>
+  </ion-item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+<ion-item>
+  <ion-text color="primary">
+  <ion-label>You can use<br>comma-separated<br>lists of names,<br>phrases etc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ion-label>
+</ion-text>
+  <ion-input placeholder="Invitation Headers by Word or Phrase"></ion-input>
+  <ion-input placeholder="Invitation Body by Word or Phrase"></ion-input> 
+</ion-item>
+  <ion-item>
+  <ion-button>Filter</ion-button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <ion-input placeholder="Links by Filename with extension"></ion-input>
+  <ion-input placeholder="Invitations by 'Archived' or 'Not Archived'"></ion-input>
+</ion-item>
+  <ion-item>
+    <ion-text color="primary">
+    <ion-label color="dark-tint">Use Begin-Date Filter Here!</ion-label></ion-text>
+    &nbsp;&nbsp;&nbsp;<ion-datetime color="tertiary" displayFormat="DD MM YYYY" pickerFormat="DD MM YYYY" value="today"></ion-datetime>
+  </ion-item>
+  <ion-button expand="block">Clear Form</ion-button>
+
+
+  
+  <ion-item>
+    <ion-button size="medium"color="tertiary" slot="start">Send Invitation or Reply</ion-button>
+    <ion-button size="medium"color="primary" slot="start">Send Invitation or Reply as Int. Serv. Requ.</ion-button>
+  </ion-item>
+  <ion-item>
+      <ion-textarea placeholder="Files Linked"></ion-textarea>
+      <ion-input placeholder=" Originating Invitation id (if reply)"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-button size="medium"color="tertiary" slot="end">Link File(s)</ion-button>
+    <ion-button size="medium"color="primary" slot="end">Clear from End</ion-button>
+  </ion-item>
+    <ion-item>
+      <ion-textarea placeholder="Recipients Selected"></ion-textarea>
+    </ion-item>
+  <ion-item>
+    <ion-button size="medium"color="tertiary" slot="end">Select Recipient(s)</ion-button>
+    <ion-button size="medium"color="primary" slot="end">Clear from End</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-textarea rows="4" cols="100" placeholder="Enter message .."></ion-textarea>
+  </ion-item>
+  <ion-button expand="block" color="tertiary">Clear Form</ion-button>
+  <ion-button disabled="true" expand="block"></ion-button>  
+</ion-content>

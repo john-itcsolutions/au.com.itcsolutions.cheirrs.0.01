@@ -1,0 +1,109 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Work Talk .. not chat, please</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+  <ion-button expand="block" color="tertiary" routerLink="/menu/talk/invitereply" routerDirection="forward">
+    Invite and Reply
+  </ion-button>
+  <ion-list>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-item>
+            <ion-label color="primary">Register&nbsp;&nbsp;<br>Room&nbsp;&nbsp;&nbsp;</ion-label>
+<ion-input placeholder="Room by Topic"></ion-input>
+</ion-item>
+      </ion-col>
+      <ion-col size="6">
+        <ion-item>
+        <ion-label color="primary">Room<br>Login&nbsp;&nbsp;&nbsp;</ion-label>
+<ion-input placeholder="Username"></ion-input>
+</ion-item>
+</ion-col>
+</ion-row>
+<ion-row><ion-col size="6">
+
+  <ion-item>
+    <ion-label color="primary">Scheduled Start:</ion-label>
+    <ion-datetime color="tertiary" displayFormat="h mm a DDD DD MMM YYYY" pickerFormat="h mm a DDD DD MMM YYYY"></ion-datetime>
+  </ion-item>
+
+</ion-col>
+<ion-col size="3">
+  <ion-item>
+    <ion-text color="primary"></ion-text>
+    <ion-button slot="end">Save this Discussion</ion-button>
+</ion-item>
+</ion-col>
+<ion-col size="3">
+  <ion-item>
+    <ion-button slot="end" color="danger">Close Room</ion-button>
+</ion-item>
+</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="7">
+    <ion-item>
+    <ion-label slot="end" color="primary">Room</ion-label>
+    <ion-textarea rows="12" cols="150" placeholder="Scrolling text:"></ion-textarea>
+</ion-item>
+</ion-col>
+<ion-col size="5">
+  <ion-item>
+  <ion-label slot="start" color="primary">Attendees</ion-label>
+  <ion-textarea rows="12" cols="60" placeholder="DATA GRID:"></ion-textarea>
+</ion-item>
+</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <ion-item>
+      <ion-button size="medium"color="primary" slot="end" fill="outline">Send</ion-button>
+    <ion-textarea rows="3" cols="150" placeholder="Type here .."></ion-textarea>
+</ion-item>
+</ion-col>
+</ion-row>
+<ion-row><ion-col size="12"><ion-item color="tertiary">If your discussion is saved, all participants will find a link to the text in Home/Dashboard/Notifications.<br>The entire archive of Work Talk is searchable by Senior Management.</ion-item>
+</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size=12>
+    <ion-item>
+  <ion-label slot="end" color="primary">Invitations<br>Sent</ion-label>
+  <ion-textarea rows="5" cols="150" placeholder="DATA GRID:Invitee/Topic/ScheduledStart/Accepted/Apologised"></ion-textarea>
+  </ion-item>
+</ion-col></ion-row>
+<ion-row>
+<ion-col size="6"                                                                                                  >
+  <ion-item>
+    <ion-button size="medium" color="success" slot="end" fill="outline">5 Minute Warning</ion-button>
+  </ion-item>
+</ion-col>
+<ion-col size="6"                                                                                                  >
+  <ion-item>
+    <ion-button size="medium" color="danger" slot="end" fill="outline">Shut Down All</ion-button>
+  </ion-item>
+</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="10"                                                                                                  >
+   <ion-item>   
+  <ion-textarea rows="5" cols="100" placeholder="DATA GRID:Moderator/Topic/ScheduledStart/Accepted?/Currently Open?"></ion-textarea>
+</ion-item>
+</ion-col>
+<ion-col size="2"                                                                                                  >
+  <ion-item>
+    <ion-button size="medium"color="tertiary" slot="end">Enter<br>Room</ion-button>
+  </ion-item>
+</ion-col>
+</ion-row>
+      </ion-grid>
+      <ion-button expand="block" disabled="true"></ion-button>
+</ion-list>                   
+</ion-content>

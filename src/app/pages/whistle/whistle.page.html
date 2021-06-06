@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>You Can Report a Compliance Breach</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content class=padding color="warning">
+  <ion-text color="tertiary">
+  <br> If you feel there is an issue with Legal or Policy Compliance you should report,<br> &nbsp;&nbsp;&nbsp;including Workplace Health & Safety issues,<br> &nbsp;&nbsp;&nbsp;you can do so confidentially (and anonymously, if desired) here.<br> &nbsp;&nbsp;&nbsp;Your confidential report is passed directly with your submission<br> &nbsp;&nbsp;&nbsp;to a senior office bearer of your choice within your company.<br>&nbsp;&nbsp;&nbsp;Please note that investigation of your submission may be hindered if you choose to report anonymously.<br> &nbsp;&nbsp;&nbsp;ITCSA has no access to the report in the normal course of duties.<br> &nbsp;&nbsp;&nbsp;You will find a link to your report in your Home/Dashboard/Notifications page,<br> &nbsp;&nbsp;&nbsp;(technically at /menu/settings/notifications), which you may keep as long as needed.<br> &nbsp;&nbsp;&nbsp;If you reported anonymously, your report remains private notwithstanding a legal order.
+ 
+  <ion-content padding>
+    <ion-button disabled="true" expand="block" color="secondary"></ion-button>
+    
+    <ion-list>
+      <ion-radio-group
+        allow-empty-selection = "true"
+        name="radio-group"
+        (ionChange)="radioGroupChange($event)"
+      >
+        <ion-list-header>
+          <ion-label>Compliance or WHS Problems</ion-label>
+        </ion-list-header>
+    
+        <ion-item 
+        *ngFor="let item of radio_list" 
+        (ionFocus)="radioFocus()"
+        (ionSelect)="radioSelect($event)"
+        (ionBlur)="radioBlur()"
+        >
+          <ion-label>{{item.text}}</ion-label>
+          <ion-radio 
+          slot="start" 
+          name="{{item.name}}" 
+          value="{{item.value}}" 
+          checked="{{item.checked}}" 
+          color="{{item.color}}" 
+          disabled="{{item.disabled}}"
+          ></ion-radio>
+        </ion-item>
+    
+      </ion-radio-group>
+    </ion-list>
+   
+    <p><b>Radio Group Event</b><br/>
+      {{selectedRadioGroup | json}}</p>
+    <p><b>Radio Item Event</b><br/>
+      {{selectedRadioItem | json}}<br/></p>
+
+      <ion-button disabled="true" expand="block" color="secondary"></ion-button>
+<ion-grid><ion-row><ion-col>
+  <ion-button color="danger" routerLink='/menu/settings/notifications' routerDirection="forward">
+    Submit Report<br>Anonymously
+  </ion-button>
+  <ion-button color="primary" routerLink='/menu/settings/notifications' routerDirection="forward">
+    Submit Report<br>including Id
+   </ion-button>
+  
+</ion-col><ion-col>
+  <ion-icon name="alarm" color="danger" slot="start"></ion-icon>
+</ion-col>
+</ion-row></ion-grid>
+  <ion-item>
+  <ion-textarea rows="12" cols="100" color="tertiary" placeholder="Please enter all details here .."></ion-textarea>
+</ion-item>
+
+<ion-button color="tertiary">Clear Form</ion-button>
+</ion-content>
+</ion-text>

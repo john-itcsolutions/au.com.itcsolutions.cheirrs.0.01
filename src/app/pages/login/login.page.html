@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>CHEIRRS - BlockChain & Database Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+  <ion-button routerLink="/menu/main">Login</ion-button>
+  <ion-item>
+  <ion-input placeholder="Username"></ion-input></ion-item>
+  <ion-item>
+  <ion-input placeholder="Password"></ion-input>
+</ion-item>
+  <ion-button disabled="true" expand="block" color="contrast"></ion-button>
+  <ion-button type="submit" expand="block" color="tertiary" username=$name workemail=$workemail dob=$dob firstname=$firstname lastname=$lastname password=$password routerLink="172.18.0.5:9000/elaauth/register">Register with Elastos BlockChain & REIRRS/CHEIRRS database</ion-button>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+      <ion-item>
+        <ion-input name="firstname" placeholder="First Name"></ion-input>
+      </ion-item>
+      </ion-col>
+<ion-col>
+<ion-item>
+  <ion-input name="lastname" placeholder="Last Name"></ion-input>
+</ion-item>
+</ion-col>
+  </ion-row>
+  <ion-row>
+  <ion-col>
+  <ion-item>
+    <ion-input name="name" placeholder="Username"></ion-input>
+  </ion-item>
+  </ion-col>
+  <ion-col>
+  <ion-item>
+    <ion-input name="email" placeholder="Work Email Address"></ion-input>
+  </ion-item>
+  </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label color="dark-tint">Date of Birth</ion-label>
+        <ion-datetime color="tertiary" displayFormat="DD MM YYYY" pickerFormat="DD MM YYYY" value="2006-02-28"></ion-datetime>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+    <ion-item>
+      <ion-input name="password" placeholder="Token Word"></ion-input>
+    </ion-item>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-button disabled="true" expand="block"></ion-button>
+</ion-content>

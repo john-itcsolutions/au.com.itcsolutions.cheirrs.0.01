@@ -55,6 +55,16 @@ as well as installing Ionic with:
 
 `sudo npm i -g @ionic/cli`
 
+`git clone https://github.com/john-itcsolutions/au.com.itcsolutions.cheirrs.0.01.git`
+
+`cd au*`
+
+In this project root directory:
+
+`ionic serve`
+
+Then have a look and see!
+
 Further instructions will become available as Elastos Essentials is developed.
 
 Access Ionic documentation for further information on developing in Ionic.

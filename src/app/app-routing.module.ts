@@ -335,6 +335,7 @@ const routes: Routes = [
   { path: 'employeemediation', loadChildren: './pages/employeemediation/employeemediation.module#EmployeemediationPageModule' },
   { path: 'propertyvaluessale', loadChildren: './pages/propertyvaluessale/propertyvaluessale.module#PropertyvaluessalePageModule' },
   { path: 'propertyvaluesrental', loadChildren: './pages/propertyvaluesrental/propertyvaluesrental.module#PropertyvaluesrentalPageModule' },
+  { path: 'registerlead', loadChildren: './pages/registerlead/registerlead.module#RegisterleadPageModule' },
   ];
 
 var Web3 = require('web3');

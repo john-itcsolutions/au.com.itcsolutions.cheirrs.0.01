@@ -88,107 +88,115 @@ export class CrmPage implements OnInit {
     }, {
       id: '8',
       name: 'radio_list',
-      value: '/menu/crm/schmatchleadstoprops',
-      text: 'Search/Match Leads to Properties',
+      value: '/menu/crm/registerlead',
+      text: 'Register Lead',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '9',
       name: 'radio_list',
-      value: '/menu/crm/schmchllordstotenants',
-      text: 'Search/Match Landlords to Tenants',
+      value: '/menu/crm/schmatchleadstoprops',
+      text: 'Search/Match Leads to Properties',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '10',
       name: 'radio_list',
-      value: '/menu/crm/schmtchinvestorstopropscrm',
-      text: 'Search/Match Investors to Properties',
+      value: '/menu/crm/schmchllordstotenants',
+      text: 'Search/Match Landlords to Tenants',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '11',
       name: 'radio_list',
-      value: '/menu/crm/schmatchtenantstoprops',
-      text: 'Search/Match Tenants to Properties',
+      value: '/menu/crm/schmtchinvestorstopropscrm',
+      text: 'Search/Match Investors to Properties',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '12',
       name: 'radio_list',
-      value: '/menu/crm/advsignagecrm',
-      text: 'Advertising & Signage',
+      value: '/menu/crm/schmatchtenantstoprops',
+      text: 'Search/Match Tenants to Properties',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '13',
       name: 'radio_list',
-      value: '/menu/crm/marketnets',
-      text: 'Marketing  to a Network',
+      value: '/menu/crm/advsignagecrm',
+      text: 'Advertising & Signage',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '14',
       name: 'radio_list',
-      value: '/menu/crm/openhouses',
-      text: 'Open House Inspections Administration',
+      value: '/menu/crm/marketnets',
+      text: 'Marketing  to a Network',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '15',
       name: 'radio_list',
-      value: '/menu/crm/privateinspectionsadmincrm',
-      text: 'Private Inspections Administration',
+      value: '/menu/crm/openhouses',
+      text: 'Open House Inspections Administration',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '16',
       name: 'radio_list',
-      value: '/menu/crm/auctionsadmincrm',
-      text: 'Auctions Administration',
+      value: '/menu/crm/privateinspectionsadmincrm',
+      text: 'Private Inspections Administration',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '17',
       name: 'radio_list',
-      value: '/menu/crm/supportagenciesandpartners',
-      text: 'Support Agencies and Partners',
+      value: '/menu/crm/auctionsadmincrm',
+      text: 'Auctions Administration',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '18',
       name: 'radio_list',
-      value: '/menu/crm/sharedequitycustomers',
-      text: 'Shared Equity Customers',
+      value: '/menu/crm/supportagenciesandpartners',
+      text: 'Support Agencies and Partners',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '19',
       name: 'radio_list',
-      value: '/menu/crm/customercomplaint',
-      text: 'Customer Complaint',
+      value: '/menu/crm/sharedequitycustomers',
+      text: 'Shared Equity Customers',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '20',
       name: 'radio_list',
+      value: '/menu/crm/customercomplaint',
+      text: 'Customer Complaint',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '21',
+      name: 'radio_list',
       value: '/menu/crm/filingcrm',
       text: 'Filing',
       disabled: false,
       checked: false,
-      color: 'primary'
+      color: 'secondary'
     }
   ];
  

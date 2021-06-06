@@ -157,6 +157,7 @@ const routes: Routes = [
       { path: 'crm/privateinspections', loadChildren: '../privateinspections/privateinspections.module#PrivateinspectionsPageModule' },
       { path: 'crm/auctions', loadChildren: '../auctions/auctions.module#AuctionsPageModule' },
       { path: 'crm/customercomplaint', loadChildren: '../customercomplaint/customercomplaint.module#CustomercomplaintPageModule' },
+      { path: 'crm/registerlead', loadChildren: '../registerlead/registerlead.module#RegisterleadPageModule' },
       { path: 'crm/filing', loadChildren: '../filing/filing.module#FilingPageModule' },
       {
         path: 'crm',

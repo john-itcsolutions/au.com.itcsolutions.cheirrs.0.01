@@ -65,6 +65,8 @@ In this project root directory:
 
 Then have a look and see!
 
+In src/assets/manifest.json you will find the place to 'whitelist' the necessary web addresses for your customers. Only addresses listed here can be accessed by your dApp, so this is where banks, your own central database, etc are listed. Any sites not in this list may not be accessed. The system of ultra-secure access involves the translating of normal web-addresses to an internally computed remapping of site addresses onto elastos 'nodes' (with temporary unique id's), with these nodes allowing access to the original ip address with no exposed web sockets. Elastos isolates itself.
+
 Further instructions will become available as Elastos Essentials is developed.
 
 Access Ionic documentation for further information on developing in Ionic.

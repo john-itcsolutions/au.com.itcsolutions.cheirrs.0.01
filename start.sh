@@ -1,0 +1,1 @@
+cd au* && ionic serve

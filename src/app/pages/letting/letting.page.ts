@@ -30,7 +30,7 @@ export class LettingPage implements OnInit {
       id: '1',
       name: 'radio_list',
       value: '/menu/letting/registeragreementtoletletting',
-      text: 'Register Agreement to Let',
+      text: 'Register Letting Agreement Type',
       disabled: false,
       checked: false,
       color: 'primary'

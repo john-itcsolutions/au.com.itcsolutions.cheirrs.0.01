@@ -38,7 +38,7 @@ export class StrategicplanningPage implements OnInit {
       id: '2',
       name: 'radio_list',
       value: '/menu/strategicplanning/strategicswotanalysis',
-      text: 'Strategic S.W.O.T. Analysis - High Level',
+      text: 'Strategic S.W.O.T. Analysis (Our Operating Environment)',
       disabled: false,
       checked: false,
       color: 'primary'

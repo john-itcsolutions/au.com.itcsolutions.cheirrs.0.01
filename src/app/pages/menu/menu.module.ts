@@ -348,6 +348,7 @@ const routes: Routes = [
       { path: 'timesheetsleave/myperformance', loadChildren: '../myperformance/myperformance.module#MyperformancePageModule' },
       { path: 'timesheetsleave/employeecomplaintbyemployee', loadChildren: '../employeecomplaintbyemployee/employeecomplaintbyemployee.module#EmployeecomplaintbyemployeePageModule' },
       { path: 'timesheetsleave/tenderresignation', loadChildren: '../tenderresignation/tenderresignation.module#TenderresignationPageModule' },
+      { path: 'timesheetsleave/myjobdescription', loadChildren: '../myjobdescription/myjobdescription.module#MyjobdescriptionPageModule' },
       { path: 'timesheetsleave/filingtsheets', loadChildren: '../filingtsheets/filingtsheets.module#FilingtsheetsPageModule' },
       {
         path: 'timesheetsleave',

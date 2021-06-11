@@ -114,6 +114,7 @@ const routes: Routes = [
       { path: 'rdevelop/historyofredevfelopments', loadChildren: '../historyofredevelopments/historyofredevelopments.module#HistoryofredevelopmentsPageModule' },
       { path: 'rdevelop/combinedprojects', loadChildren: '../combinedprojects/combinedprojects.module#CombinedprojectsPageModule' },
       { path: 'rdevelop/combinedresources', loadChildren: '../combinedresources/combinedresources.module#CombinedresourcesPageModule' },
+      { path: 'rdevelop/rdvlpfundingsubmissions', loadChildren: '../rdvlpfundingsubmissions/rdvlpfundingsubmissions.module#RdvlpfundingsubmissionsPageModule' },
       { path: 'rdevelop/filing', loadChildren: '../filing/filing.module#FilingPageModule' },
       {
         path: 'rdevelop',

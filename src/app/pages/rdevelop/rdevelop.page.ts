@@ -69,13 +69,45 @@ export class RdevelopPage implements OnInit {
     }, {
       id: '6',
       name: 'radio_list',
+      value: '/menu/rdevelop/rdvlpfundingsubmissions',
+      text: 'Funding Submissions',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    },  {
+      id: '7',
+      name: 'radio_list',
+      value: '/menu/rdevelop/projectlegalities',
+      text: 'Project Legalities and Requirements',
+      disabled: false,
+      checked: false,
+      color: 'secondary'
+    }, {
+      id: '8',
+      name: 'radio_list',
+      value: '/menu/rdevelop/projectriskanalysis',
+      text: 'Project Risk Analysis',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '9',
+      name: 'radio_list',
+      value: '/menu/rdevelop/projectfinancialanalysis',
+      text: 'Project Financial Analysis',
+      disabled: false,
+      checked: false,
+      color: 'secondary'
+    }, {
+      id: '10',
+      name: 'radio_list',
       value: '/menu/rdevelop/projectscheduling',
       text: 'Project Scheduling and Milestones',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
-      id: '7',
+      id: '11',
       name: 'radio_list',
       value: '/menu/rdevelop/projectbudgeting',
       text: 'Project Budgeting and Costing',
@@ -83,7 +115,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '8',
+      id: '12',
       name: 'radio_list',
       value: '/menu/rdevelop/projectdesign',
       text: 'Project Design',
@@ -91,7 +123,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '9',
+      id: '13',
       name: 'radio_list',
       value: '/menu/workshop/rdevelopitems',
       text: 'Construction Items/Inventory (incl Tools)',
@@ -99,7 +131,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '10',
+      id: '14',
       name: 'radio_list',
       value: '/menu/workshop/rdevelopjobs',
       text: 'Construction Jobs',
@@ -107,7 +139,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '11',
+      id: '15',
       name: 'radio_list',
       value: '/menu/workshop/rdeveloppurchreq',
       text: 'Construction Purchase Requests',
@@ -115,7 +147,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '12',
+      id: '16',
       name: 'radio_list',
       value: '/menu/workshop/rdeveloppurchorders',
       text: 'Construction Purchase Orders',
@@ -123,7 +155,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '13',
+      id: '17',
       name: 'radio_list',
       value: '/menu/workshop/rdevelopfirstaid',
       text: 'First Aid',
@@ -131,7 +163,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '14',
+      id: '18',
       name: 'radio_list',
       value: '/menu/workshop/rdevelopqualassurance',
       text: 'Quality Assurance',
@@ -139,7 +171,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '15',
+      id: '19',
       name: 'radio_list',
       value: '/menu/workshop/rdevelopteamboards',
       text: 'Construction Team Boards',
@@ -147,7 +179,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '16',
+      id: '20',
       name: 'radio_list',
       value: '/menu/workshop/rdevelopprodschedules',
       text: 'Construction Schedules',
@@ -155,7 +187,7 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '17',
+      id: '21',
       name: 'radio_list',
       value: '/menu/workshop/rdevelopproductionrequirements',
       text: 'Construction Requirements: Jobs and Items (Requ Templates + Customised Requ)',
@@ -163,85 +195,61 @@ export class RdevelopPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '18',
-      name: 'radio_list',
-      value: '/menu/rdevelop/projectlegalities',
-      text: 'Project Legalities and Requirements',
-      disabled: false,
-      checked: false,
-      color: 'primary'
-    }, {
-      id: '19',
-      name: 'radio_list',
-      value: '/menu/rdevelop/projectriskanalysis',
-      text: 'Project Risk Analysis',
-      disabled: false,
-      checked: false,
-      color: 'secondary'
-    }, {
-      id: '20',
-      name: 'radio_list',
-      value: '/menu/rdevelop/projectfinancialanalysis',
-      text: 'Project Financial Analysis',
-      disabled: false,
-      checked: false,
-      color: 'primary'
-    }, {
-      id: '21',
+      id: '22',
       name: 'radio_list',
       value: '/menu/rdevelop/potentialdevelprojects',
       text: 'Potential Development Projects',
-      disabled: false,
-      checked: false,
-      color: 'secondary'
-    }, {
-      id: '22',
-      name: 'radio_list',
-      value: '/menu/rdevelop/potentialredevelprojects',
-      text: 'Potential Redevelopment Projects',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '23',
       name: 'radio_list',
-      value: '/menu/rdevelop/historyofdevelopments',
-      text: 'History of Developments',
+      value: '/menu/rdevelop/potentialredevelprojects',
+      text: 'Potential Redevelopment Projects',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '24',
       name: 'radio_list',
-      value: '/menu/rdevelop/historyofredevelopments',
-      text: 'History of Redevelopments',
+      value: '/menu/rdevelop/historyofdevelopments',
+      text: 'History of Developments',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '25',
       name: 'radio_list',
-      value: '/menu/rdevelop/projectresources',
-      text: 'Combined Current Project Resources',
+      value: '/menu/rdevelop/historyofredevelopments',
+      text: 'History of Redevelopments',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '26',
       name: 'radio_list',
-      value: '/menu/rdevelop/combinedprojects',
-      text: 'Combined View of Current Projects',
+      value: '/menu/rdevelop/projectresources',
+      text: 'Combined Current Project Resources',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '27',
       name: 'radio_list',
+      value: '/menu/rdevelop/combinedprojects',
+      text: 'Combined View of Current Projects',
+      disabled: false,
+      checked: false,
+      color: 'secondary'
+    }, {
+      id: '28',
+      name: 'radio_list',
       value: '/menu/rdevelop/filingrdevel',
       text: 'Filing',
       disabled: false,
       checked: false,
-      color: 'secondary'
+      color: 'primary'
     }
   ];
  

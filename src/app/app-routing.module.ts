@@ -337,6 +337,7 @@ const routes: Routes = [
   { path: 'propertyvaluesrental', loadChildren: './pages/propertyvaluesrental/propertyvaluesrental.module#PropertyvaluesrentalPageModule' },
   { path: 'registerlead', loadChildren: './pages/registerlead/registerlead.module#RegisterleadPageModule' },
   { path: 'myjobdescription', loadChildren: './pages/myjobdescription/myjobdescription.module#MyjobdescriptionPageModule' },
+  { path: 'rdvlpfundingsubmissions', loadChildren: './pages/rdvlpfundingsubmissions/rdvlpfundingsubmissions.module#RdvlpfundingsubmissionsPageModule' },
   ];
 
 var Web3 = require('web3');

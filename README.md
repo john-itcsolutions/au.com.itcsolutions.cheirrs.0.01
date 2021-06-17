@@ -87,5 +87,9 @@ Keep in touch with 'Elastos.Essentials' development on github, at:
 
 ## https://github.com/elastos/Elastos.Essentials
 
+My LinkedIn:
+
+https://www.linkedin.com/in/john-lloyd-olsen/
+
 
 

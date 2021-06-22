@@ -174,154 +174,162 @@ export class HumanresourcesPage implements OnInit {
       id: '19',
       name: 'radio_list',
       value: '/menu/humanresources/employmentdutydescriptions',
-      text: 'Employment Duty Descriptions',
+      text: 'Employment Contracts',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '20',
       name: 'radio_list',
-      value: '/menu/humanresources/searchdocsbyemply',
-      text: 'Search Documents by Employee',
+      value: '/menu/humanresources/jobdescriptionshr',
+      text: 'Job Descriptions',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '21',
       name: 'radio_list',
-      value: '/menu/humanresources/searchdocsbysalesagent',
-      text: 'Search Documents by Sales Agent',
+      value: '/menu/humanresources/searchdocsbyemply',
+      text: 'Search Documents by Employee',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '22',
       name: 'radio_list',
+      value: '/menu/humanresources/searchdocsbysalesagent',
+      text: 'Search Documents by Sales Agent',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '23',
+      name: 'radio_list',
       value: '/menu/humanresources/whstraining',
       text: 'WHS Training',
       disabled: false,
       checked: false,
-      color: 'primary'
+      color: 'secondary'
     },{
-      id: '23',
+      id: '24',
       name: 'radio_list',
       value: '/menu/humanresources/whsauditing',
       text: 'WHS Auditing',
-      disabled: false,
-      checked: false,
-      color: 'secondary'
-    }, {
-      id: '24',
-      name: 'radio_list',
-      value: '/menu/humanresources/stafftraining',
-      text: 'Staff Training',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '25',
       name: 'radio_list',
-      value: '/menu/humanresources/boardtraining',
-      text: 'Board Training',
+      value: '/menu/humanresources/stafftraining',
+      text: 'Staff Training',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '26',
       name: 'radio_list',
-      value: '/menu/humanresources/employeemediation',
-      text: 'Employee Mediation',
+      value: '/menu/humanresources/boardtraining',
+      text: 'Board Training',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '27',
       name: 'radio_list',
-      value: '/menu/humanresources/performancemngmnt',
-      text: 'Performance Management',
+      value: '/menu/humanresources/employeemediation',
+      text: 'Employee Mediation',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '28',
       name: 'radio_list',
-      value: '/menu/humanresources/terminateagentoremployee',
-      text: 'Terminate Agent or Employee',
+      value: '/menu/humanresources/performancemngmnt',
+      text: 'Performance Management',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '29',
       name: 'radio_list',
-      value: '/menu/humanresources/employmentapplicantcomplaint',
-      text: 'Employment Applicant Complaint',
+      value: '/menu/humanresources/terminateagentoremployee',
+      text: 'Terminate Agent or Employee',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '30',
       name: 'radio_list',
+      value: '/menu/humanresources/employmentapplicantcomplaint',
+      text: 'Employment Applicant Complaint',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '31',
+      name: 'radio_list',
       value: '/menu/humanresources/employeecomplaint',
       text: 'Employee Complaint',
       disabled: false,
       checked: false,
-      color: 'primary'  
+      color: 'secondary'  
     }, {
-      id: '31',
+      id: '32',
       name: 'radio_list',
       value: '/menu/humanresources/workshopsafetyaudits',
       text: 'Workshop Safety Audits',
       disabled: false,
       checked: false,
-      color: 'secondary'
+      color: 'primary'
     },{
-      id: '32',
+      id: '33',
       name: 'radio_list',
       value: '/menu/humanresources/workshoptraining',
       text: 'Workshop Training',
-      disabled: false,
-      checked: false,
-      color: 'primary'
-    }, {
-      id: '33',
-      name: 'radio_list',
-      value: '/menu/humanresources/workshopsafetytraining',
-      text: 'Workshop Safety Training',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '34',
       name: 'radio_list',
-      value: '/menu/humanresources/workshopinduction',
-      text: 'Workshop Induction',
+      value: '/menu/humanresources/workshopsafetytraining',
+      text: 'Workshop Safety Training',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '35',
       name: 'radio_list',
+      value: '/menu/humanresources/workshopinduction',
+      text: 'Workshop Induction',
+      disabled: false,
+      checked: false,
+      color: 'secondary'
+    }, {
+      id: '36',
+      name: 'radio_list',
       value: '/menu/humanresources/workshopqualificationsregister',
       text: 'Workshop Licences & Qualifications',
       disabled: false,
       checked: false,
-      color: 'secondary'  
+      color: 'primary'  
     }, {
-      id: '36',
+      id: '37',
       name: 'radio_list',
       value: '/menu/humanresources/firstaidhr',
       text: 'First Aid',
       disabled: false,
       checked: false,
-      color: 'primary'
+      color: 'secondary'
     }, {
-      id: '37',
+      id: '38',
       name: 'radio_list',
       value: '/menu/humanresources/filinghr',
       text: 'Filing',
       disabled: false,
       checked: false,
-      color: 'secondary'
+      color: 'primary'
     }
   ];
   

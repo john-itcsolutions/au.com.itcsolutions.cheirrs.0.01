@@ -338,6 +338,7 @@ const routes: Routes = [
   { path: 'registerlead', loadChildren: './pages/registerlead/registerlead.module#RegisterleadPageModule' },
   { path: 'myjobdescription', loadChildren: './pages/myjobdescription/myjobdescription.module#MyjobdescriptionPageModule' },
   { path: 'rdvlpfundingsubmissions', loadChildren: './pages/rdvlpfundingsubmissions/rdvlpfundingsubmissions.module#RdvlpfundingsubmissionsPageModule' },
+  { path: 'jobdescriptionshr', loadChildren: './pages/jobdescriptionshr/jobdescriptionshr.module#JobdescriptionshrPageModule' },
   ];
 
 var Web3 = require('web3');

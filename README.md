@@ -65,6 +65,8 @@ In this project root directory:
 
 Then have a look and see!
 
+(Note: We do not yet fully understand the "angular router" now in use by ionic, so second-level menu selections have simply been hard-coded to a single option per page. Also the options' resulting pages are mostly blank.)
+
 Here is a sample screenshot:
 
 <img src="./Screenshot from 2021-06-17 18-11-23.png">

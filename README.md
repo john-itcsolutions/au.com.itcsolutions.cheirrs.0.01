@@ -14,7 +14,7 @@ See the following figure:
 
 <img src="./kubernetesinstallation-25-06-2021-1.png">
 
-It is a Kubernetes-based repo, designed for intallation of a juju charms kubernetes system, with Blockchain-Database Server ('smart-web' charm), and also includes a KubeFlow/TensorFlow model for development of Machine Learning Workflows on a separate local virtual 'cloud' controller. The 2 controllers ('betrieb', and 'lernmaschine') represent a very powerful basis upon which to build a multi-tenancy and multi-networked installation fully connected to the Elastos System of Blockchains for Distributed Identities (DID-SideChain), Main information recording (Main-Chain), Token exchange and storage (Token-SideChain) and the Ethereum Sidechain (ETH-SideChain) for Smart Contract Operations.
+It is a Kubernetes-based repo, designed for intallation of a juju charms kubernetes system, with Blockchain-Database Server ('smart-web' installed directly on kubernetes-worker-0), and also includes a KubeFlow/TensorFlow model for development of Machine Learning Workflows on a separate local virtual 'cloud' controller. The 2 controllers ('betrieb', and 'lernenmaschine') represent a very powerful basis upon which to build a multi-tenancy and multi-networked installation fully connected to the Elastos System of Blockchains for Distributed Identities (DID-SideChain), Main information recording (Main-Chain), Token exchange and storage (Token-SideChain) and the Ethereum Sidechain (ETH-SideChain) for Smart Contract Operations.
 
 On that repo you will find the 'smart-web' server, which provides access for requests from this cheirrs Front End to the PostgreSQL 'haus' database, via JavaScript calls to gRPC protocol buffers (yet to be) included in au.com.itcsolutions.cheirrs, but ready now, and implemented in python3.
 
@@ -26,7 +26,7 @@ The cheirrs_oseer schema is responsible for overseeing Business Processes on the
 
 The smart-web server simultaneously provides a way of recording relevant auditable information and smart contract data on the relevant Elastos Blockchains in between writing to and reading data from 'haus'. Blockchain sections of all transactions occur first in the sequence of requests sent from the Front End dApp to the smart-web server (via gRPC protocols), with PostgreSQL database requests occurring secondarily, in order to ensure integrity of the data. This is because the Blockchains are immutable and serve as the ultimate sources of Truth about transaction input and result. The PostgreSQL calls are meant to write the 'bulk' transaction data to the centralised 'haus' Enterprise Relational Database (eventually situated in a public Cloud), rather than storing excessive amounts of data on Blockchains, which would be more expensive.
 
-Currently (April 2021) the Elastos Trinity Tech Team are developing an entirely revised method and structure for coding of Ionic front ends for Elastos. Advice on migration, so that our repo may use the new 'Elastos Essentials' Structure, will be available when the expected first stable release is available around July, 2021.
+Currently (April 2021) the Elastos Trinity Tech Team are developing an entirely revised method and structure for coding of Ionic front ends for Elastos. Advice on migration, so that our repo may use the new 'Elastos Essentials' Structure, will be available with the expected first stable release around July, 2021.
 
 The old Trinity-CLI will be discontinued in favour of using the native Ionic development/debugging/deployment process lifecycle instead of the old Trinity-CLI Toolchain. In addition Cordova Plugins will be accessed directly, rather than being wrapped inside Trinity methods and structures.
 
@@ -89,7 +89,9 @@ Keep in touch with 'Elastos.Essentials' development on github, at:
 
 ## https://github.com/elastos/Elastos.Essentials
 
-My LinkedIn:
+_____________________________________________________________________________________
+
+## My LinkedIn:
 
 https://www.linkedin.com/in/john-lloyd-olsen/
 

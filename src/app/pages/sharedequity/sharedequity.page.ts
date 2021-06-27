@@ -133,11 +133,19 @@ export class SharedequityPage implements OnInit {
     }, {
       id: '14',
       name: 'radio_list',
+      value: '/menu/sharedequity/searchdocsbyshequproperty',
+      text: 'Search Documents by Shared Equity Property',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '15',
+      name: 'radio_list',
       value: '/menu/sharedequity/filingshequ',
       text: 'Filing',
       disabled: false,
       checked: false,
-      color: 'primary'
+      color: 'secondary'
     }
   ];
   

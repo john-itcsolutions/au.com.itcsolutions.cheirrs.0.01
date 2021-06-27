@@ -201,6 +201,7 @@ const routes: Routes = [
       { path: 'sharedequity/shequreceiveapplication', loadChildren: '../shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
       { path: 'sharedequity/shequmakeoffertoapplicant', loadChildren: '../shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
       { path: 'sharedequity/shequregistershequitymtgageagrmnt', loadChildren: '../shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module#ShequregistershequitymtgageagrmntPageModule' },
+      { path: 'sharedequity/searchdocsbyshequproperty', loadChildren: '../searchdocsbyshequproperty/searchdocsbyshequproperty.module#SearchdocsbyshequpropertyPageModule' },
       { path: 'sharedequity/filingshequ', loadChildren: '../filingshequ/filingshequ.module#FilingshequPageModule' },
       {
         path: 'sharedequity',

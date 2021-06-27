@@ -345,6 +345,7 @@ const routes: Routes = [
   { path: 'shequreceiveapplication', loadChildren: './pages/shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
   { path: 'shequmakeoffertoapplicant', loadChildren: './pages/shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
   { path: 'shequregistershequitymtgageagrmnt', loadChildren: './pages/shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module#ShequregistershequitymtgageagrmntPageModule' },
+  { path: 'searchdocsbyshequproperty', loadChildren: './pages/searchdocsbyshequproperty/searchdocsbyshequproperty.module#SearchdocsbyshequpropertyPageModule' },
   ];
 
 var Web3 = require('web3');

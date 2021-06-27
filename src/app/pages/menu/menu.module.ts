@@ -137,6 +137,9 @@ const routes: Routes = [
       { path: 'sales/keyregistersales', loadChildren: '../keyregistersales/keyregistersales.module#KeyregistersalesPageModule' },
       { path: 'sales/customercomplaint', loadChildren: '../customercomplaint/customercomplaint.module#CustomercomplaintPageModule' },
       { path: 'sales/mortgageagreement', loadChildren: '../mortgageagreement/mortgageagreement.module#MortgageagreementPageModule' },
+      { path: 'sales/shequreceiveapplication', loadChildren: '../shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
+      { path: 'sales/shequmakeoffertoapplicant', loadChildren: '../shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
+
       { path: 'sales/filing', loadChildren: '../filing/filing.module#FilingPageModule' },
       {
         path: 'sales',
@@ -198,8 +201,6 @@ const routes: Routes = [
       { path: 'sharedequity/searchshequownersbyproperty', loadChildren: '../searchshequownersbyproperty/searchshequownersbyproperty.module#SearchshequownersbypropertyPageModule' },
       { path: 'sharedequity/searchshequownersbyname', loadChildren: '../searchshequownersbyname/searchshequownersbyname.module#SearchshequownersbynamePageModule' },
       { path: 'sharedequity/searchdocsbyshequowner', loadChildren: '../searchdocsbyshequowner/searchdocsbyshequowner.module#SearchdocsbyshequownerPageModule' },
-      { path: 'sharedequity/shequreceiveapplication', loadChildren: '../shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
-      { path: 'sharedequity/shequmakeoffertoapplicant', loadChildren: '../shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
       { path: 'sharedequity/shequregistershequitymtgageagrmnt', loadChildren: '../shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module#ShequregistershequitymtgageagrmntPageModule' },
       { path: 'sharedequity/searchdocsbyshequproperty', loadChildren: '../searchdocsbyshequproperty/searchdocsbyshequproperty.module#SearchdocsbyshequpropertyPageModule' },
       { path: 'sharedequity/filingshequ', loadChildren: '../filingshequ/filingshequ.module#FilingshequPageModule' },

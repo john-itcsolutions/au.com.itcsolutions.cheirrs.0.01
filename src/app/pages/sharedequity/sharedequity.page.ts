@@ -21,29 +21,13 @@ export class SharedequityPage implements OnInit {
     {
       id: '0',
       name: 'radio_list',
-      value: '/menu/sharedequity/shequreceiveapplication',
-      text: 'Receive Shared Equity Application',
-      disabled: false,
-      checked: false,
-      color: 'primary'
-    },{
-      id: '1',
-      name: 'radio_list',
-      value: '/menu/sharedequity/shequmakeoffertoapplicant',
-      text: 'Make Offer to Shared Equity Applicant',
-      disabled: false,
-      checked: false,
-      color: 'secondary'
-    }, {
-      id: '2',
-      name: 'radio_list',
       value: '/menu/sharedequity/shequregistershequitymtgageagrmnt',
-      text: 'Register Shared Equity Mortgage Agreement',
+      text: 'Register Shared Equity Mortgage Agreement Type',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
-      id: '3',
+      id: '1',
       name: 'radio_list',
       value: '/menu/sharedequity/receiveshequmortgepayment',
       text: 'Receive Shared Equity Mortgage Payment',
@@ -51,7 +35,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '4',
+      id: '2',
       name: 'radio_list',
       value: '/menu/sharedequity/issuereceiptmtgepaymntshequ',
       text: 'Issue Receipt - Shared Equity Mortgage Payment',
@@ -59,7 +43,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '5',
+      id: '3',
       name: 'radio_list',
       value: '/menu/sharedequity/refinanceshequmtge',
       text: 'Refinance Shared Equity Mortgage',
@@ -67,7 +51,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '6',
+      id: '4',
       name: 'radio_list',
       value: '/menu/sharedequity/closemtgeagrmntshequ',
       text: 'Close Mortgage Agreement',
@@ -75,7 +59,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '7',
+      id: '5',
       name: 'radio_list',
       value: '/menu/sharedequity/contactbyshequowner',
       text: 'Contact by Shared Equity Customer',
@@ -83,7 +67,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '8',
+      id: '6',
       name: 'radio_list',
       value: '/menu/sharedequity/complaintbyshequowners',
       text: 'Complaint by Shared Equity Owners',
@@ -91,7 +75,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '9',
+      id: '7',
       name: 'radio_list',
       value: '/menu/sharedequity/complaintagainstshequowners',
       text: 'Complaint Against Shared Equity Owners',
@@ -99,7 +83,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '10',
+      id: '8',
       name: 'radio_list',
       value: '/menu/sharedequity/corroandcommswithshequowner',
       text: 'Correspondence & Communications with Shared Equity Owner(s)',
@@ -107,7 +91,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '11',
+      id: '9',
       name: 'radio_list',
       value: '/menu/sharedequity/searchshequownersbyproperty',
       text: 'Search Shared Equity Owners by Property',
@@ -115,7 +99,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '12',
+      id: '10',
       name: 'radio_list',
       value: '/menu/sharedequity/searchshequownersbyname',
       text: 'Search Shared Equity Owners by Name',
@@ -123,7 +107,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '13',
+      id: '11',
       name: 'radio_list',
       value: '/menu/sharedequity/searchdocsbyshequowner',
       text: 'Search Documents by Shared Equity Owner',
@@ -131,7 +115,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'secondary'
     }, {
-      id: '14',
+      id: '12',
       name: 'radio_list',
       value: '/menu/sharedequity/searchdocsbyshequproperty',
       text: 'Search Documents by Shared Equity Property',
@@ -139,7 +123,7 @@ export class SharedequityPage implements OnInit {
       checked: false,
       color: 'primary'
     }, {
-      id: '15',
+      id: '13',
       name: 'radio_list',
       value: '/menu/sharedequity/filingshequ',
       text: 'Filing',

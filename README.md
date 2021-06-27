@@ -77,9 +77,13 @@ In src/assets/manifest.json you will find the place to 'whitelist' the necessary
 
 The above Front End GUI (ie provided by this repo) connects via Python-based gRPC web connection (shielded by the Elastos 'Carrier' Global Security System), to a "Kubernetes" installation in the cloud which provides access to Elastos blockchains and the central Postgres Database.
 
+It may be worth noting that every client's devices (whether mobile or desktop) actually run the identical blockchains to those on the webserver in the cloud (our "smart-web"). Although our work is called a "dApp" (for "distributed Application"), we could not succeed in this project if we had to store all enterprise data on blockchains. Incredibly expensive and if everyone did it the blockchains would be very slow and constantly choking. We simply must have a central store for enterprise data. This means transactions need to happen in the cloud as well as on devices. This requires blockchains to be running in the cloud and those blockchain servers to be controlling database transactions (not, for example, the other way round). This is because we rely on blockchains to provide an immutable source of Truth about transactions, underwritten by BitCoin "Merge-Mining". (See the Elastos Whitepaper https://www.elastos.org/downloads/elastos_whitepaper_en.pdf).
+
 The Kubernetes installation's Status Board looks like this:
 
 <img src="./Screenshot from 2021-06-22 06-28-06.png">
+
+Our "smart-web" server (the heart of the Elastos System) is installed on kubernetes-worker-0 (at 10.57.133.224 in the figure), and communicates with the postgresql database, whose replica are labeled pg-a/0 and pg-a/1. The actual blockchains (4 of them) are inside 4 containers within smart-web. The smart-web server obviously also communicates with the client dApps (Front Ends). In addition it participates in an Internet of Things system as the lynchpin between the edge-connected kubernetes-worker-2 (ie connected to IoT devices in the field), the IoT schema on postgres, and the Administration dApp monitoring events. All interconnections rely upon the gRPC protocol buffers, an invention of Google's.
 
 The schematic Figure at the head of this article matches the above installation, as well as showing the various dApps planned-for in the future.
 

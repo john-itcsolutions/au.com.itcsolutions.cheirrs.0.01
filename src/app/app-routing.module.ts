@@ -339,6 +339,12 @@ const routes: Routes = [
   { path: 'myjobdescription', loadChildren: './pages/myjobdescription/myjobdescription.module#MyjobdescriptionPageModule' },
   { path: 'rdvlpfundingsubmissions', loadChildren: './pages/rdvlpfundingsubmissions/rdvlpfundingsubmissions.module#RdvlpfundingsubmissionsPageModule' },
   { path: 'jobdescriptionshr', loadChildren: './pages/jobdescriptionshr/jobdescriptionshr.module#JobdescriptionshrPageModule' },
+  { path: 'reportingwhsauditing', loadChildren: './pages/reportingwhsauditing/reportingwhsauditing.module#ReportingwhsauditingPageModule' },
+  { path: 'reportingacctspayableauditing', loadChildren: './pages/reportingacctspayableauditing/reportingacctspayableauditing.module#ReportingacctspayableauditingPageModule' },
+  { path: 'reportingacctsrecvableauditing', loadChildren: './pages/reportingacctsrecvableauditing/reportingacctsrecvableauditing.module#ReportingacctsrecvableauditingPageModule' },
+  { path: 'shequreceiveapplication', loadChildren: './pages/shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
+  { path: 'shequmakeoffertoapplicant', loadChildren: './pages/shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
+  { path: 'shequregistershequitymtgageagrmnt', loadChildren: './pages/shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module#ShequregistershequitymtgageagrmntPageModule' },
   ];
 
 var Web3 = require('web3');

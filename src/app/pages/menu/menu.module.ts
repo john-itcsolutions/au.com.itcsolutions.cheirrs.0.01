@@ -198,6 +198,9 @@ const routes: Routes = [
       { path: 'sharedequity/searchshequownersbyproperty', loadChildren: '../searchshequownersbyproperty/searchshequownersbyproperty.module#SearchshequownersbypropertyPageModule' },
       { path: 'sharedequity/searchshequownersbyname', loadChildren: '../searchshequownersbyname/searchshequownersbyname.module#SearchshequownersbynamePageModule' },
       { path: 'sharedequity/searchdocsbyshequowner', loadChildren: '../searchdocsbyshequowner/searchdocsbyshequowner.module#SearchdocsbyshequownerPageModule' },
+      { path: 'sharedequity/shequreceiveapplication', loadChildren: '../shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
+      { path: 'sharedequity/shequmakeoffertoapplicant', loadChildren: '../shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
+      { path: 'sharedequity/shequregistershequitymtgageagrmnt', loadChildren: '../shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module#ShequregistershequitymtgageagrmntPageModule' },
       { path: 'sharedequity/filingshequ', loadChildren: '../filingshequ/filingshequ.module#FilingshequPageModule' },
       {
         path: 'sharedequity',
@@ -336,6 +339,7 @@ const routes: Routes = [
       { path: 'humanresources/firstaidhr', loadChildren: '../firstaidhr/firstaidhr.module#FirstaidhrPageModule' },
       { path: 'humanresources/rolesandemployees', loadChildren: '../rolesandemployees/rolesandemployees.module#RolesandemployeesPageModule' },
       { path: 'humanresources/employeemediation', loadChildren: '../employeemediation/employeemediation.module#EmployeemediationPageModule' },
+      { path: 'humanresources/jobdescriptionshr', loadChildren: '../jobdescriptionshr/jobdescriptionshr.module#JobdescriptionshrPageModule' },
       { path: 'humanresources/filinghr', loadChildren: '../filinghr/filinghr.module#FilinghrPageModule' },
       {
         path: 'humanresources',
@@ -510,6 +514,9 @@ const routes: Routes = [
       { path: 'reporting/vacantsvoidsreport', loadChildren: '../vacantsvoidsreport/vacantsvoidsreport.module#VacantsvoidsreportPageModule' },
       { path: 'reporting/reportceomultiflex', loadChildren: '../reportceomultiflex/reportceomultiflex.module#ReportceomultiflexPageModule' },
       { path: 'reporting/reportcfomultiflex', loadChildren: '../reportcfomultiflex/reportcfomultiflex.module#ReportcfomultiflexPageModule' },
+      { path: 'reporting/reportingwhsauditing', loadChildren: '../reportingwhsauditing/reportingwhsauditing.module#ReportingwhsauditingPageModule' },
+      { path: 'reporting/reportingacctspayableauditing', loadChildren: '../reportingacctspayableauditing/reportingacctspayableauditing.module#ReportingacctspayableauditingPageModule' },
+      { path: 'reporting/reportingacctsrecvableauditing', loadChildren: '../reportingacctsrecvableauditing/reportingacctsrecvableauditing.module#ReportingacctsrecvableauditingPageModule' },
       {
       path: 'reporting',
       loadChildren: '../reporting/reporting.module#ReportingPageModule'

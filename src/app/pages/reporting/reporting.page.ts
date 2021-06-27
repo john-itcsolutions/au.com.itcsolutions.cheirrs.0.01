@@ -213,27 +213,51 @@ export class ReportingPage implements OnInit {
     }, {
       id: '24',
       name: 'radio_list',
-      value: '/menu/reporting/vacantsvoidsreport',
-      text: 'Vacants & Voids Report',
+      value: '/menu/reporting/reportingwhsauditing',
+      text: 'Work Health & Safety Auditing Report',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '25',
       name: 'radio_list',
-      value: '/menu/reporting/reportceomultiflex',
-      text: 'CEO Multiflex Report',
+      value: '/menu/reporting/reportingacctspayableauditing',
+      text: 'Accounts Payable Auditing Report',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '26',
       name: 'radio_list',
+      value: '/menu/reporting/reportingacctsrecvableauditing',
+      text: 'Accounts Receivable Auditing Report',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '27',
+      name: 'radio_list',
+      value: '/menu/reporting/vacantsvoidsreport',
+      text: 'Vacants & Voids Report',
+      disabled: false,
+      checked: false,
+      color: 'secondary'
+    }, {
+      id: '28',
+      name: 'radio_list',
+      value: '/menu/reporting/reportceomultiflex',
+      text: 'CEO Multiflex Report',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '29',
+      name: 'radio_list',
       value: '/menu/reporting/reportcfomultiflex',
       text: 'CFO Multiflex Report',
       disabled: false,
       checked: false,
-      color: 'primary'
+      color: 'secondary'
     }
   ];
  

@@ -22,7 +22,7 @@ export class RiskmngmntPage implements OnInit {
       id: '0',
       name: 'radio_list',
       value: '/menu/riskmngmnt/riskelements',
-      text: 'Risk Elements - External',
+      text: 'Summary of Risk Elements - External',
       disabled: false,
       checked: false,
       color: 'primary'
@@ -30,7 +30,7 @@ export class RiskmngmntPage implements OnInit {
       id: '1',
       name: 'radio_list',
       value: '/menu/riskmngmnt/riskelementsinternal',
-      text: 'Risk Elements - Internal',
+      text: 'Summary of Risk Elements - Internal',
       disabled: false,
       checked: false,
       color: 'secondary'

@@ -21,99 +21,123 @@ export class SharedequityPage implements OnInit {
     {
       id: '0',
       name: 'radio_list',
-      value: '/menu/sharedequity/receiveshequmortgepayment',
-      text: 'Receive Shared Equity Mortgage Payment',
+      value: '/menu/sharedequity/shequreceiveapplication',
+      text: 'Receive Shared Equity Application',
       disabled: false,
       checked: false,
       color: 'primary'
     },{
       id: '1',
       name: 'radio_list',
-      value: '/menu/sharedequity/issuereceiptmtgepaymntshequ',
-      text: 'Issue Receipt - Shared Equity Mortgage Payment',
+      value: '/menu/sharedequity/shequmakeoffertoapplicant',
+      text: 'Make Offer to Shared Equity Applicant',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '2',
       name: 'radio_list',
-      value: '/menu/sharedequity/refinanceshequmtge',
-      text: 'Refinance Shared Equity Mortgage',
+      value: '/menu/sharedequity/shequregistershequitymtgageagrmnt',
+      text: 'Register Shared Equity Mortgage Agreement',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '3',
       name: 'radio_list',
-      value: '/menu/sharedequity/closemtgeagrmntshequ',
-      text: 'Close Mortgage Agreement',
+      value: '/menu/sharedequity/receiveshequmortgepayment',
+      text: 'Receive Shared Equity Mortgage Payment',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '4',
       name: 'radio_list',
-      value: '/menu/sharedequity/contactbyshequowner',
-      text: 'Contact by Shared Equity Customer',
+      value: '/menu/sharedequity/issuereceiptmtgepaymntshequ',
+      text: 'Issue Receipt - Shared Equity Mortgage Payment',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '5',
       name: 'radio_list',
-      value: '/menu/sharedequity/complaintbyshequowners',
-      text: 'Complaint by Shared Equity Owners',
+      value: '/menu/sharedequity/refinanceshequmtge',
+      text: 'Refinance Shared Equity Mortgage',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '6',
       name: 'radio_list',
-      value: '/menu/sharedequity/complaintagainstshequowners',
-      text: 'Complaint Against Shared Equity Owners',
+      value: '/menu/sharedequity/closemtgeagrmntshequ',
+      text: 'Close Mortgage Agreement',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '7',
       name: 'radio_list',
-      value: '/menu/sharedequity/corroandcommswithshequowner',
-      text: 'Correspondence & Communications with Shared Equity Owner(s)',
+      value: '/menu/sharedequity/contactbyshequowner',
+      text: 'Contact by Shared Equity Customer',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '8',
       name: 'radio_list',
-      value: '/menu/sharedequity/searchshequownersbyproperty',
-      text: 'Search Shared Equity Owners by Property',
+      value: '/menu/sharedequity/complaintbyshequowners',
+      text: 'Complaint by Shared Equity Owners',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '9',
       name: 'radio_list',
-      value: '/menu/sharedequity/searchshequownersbyname',
-      text: 'Search Shared Equity Owners by Name',
+      value: '/menu/sharedequity/complaintagainstshequowners',
+      text: 'Complaint Against Shared Equity Owners',
       disabled: false,
       checked: false,
       color: 'secondary'
     }, {
       id: '10',
       name: 'radio_list',
-      value: '/menu/sharedequity/searchdocsbyshequowner',
-      text: 'Search Documents by Shared Equity Owner',
+      value: '/menu/sharedequity/corroandcommswithshequowner',
+      text: 'Correspondence & Communications with Shared Equity Owner(s)',
       disabled: false,
       checked: false,
       color: 'primary'
     }, {
       id: '11',
       name: 'radio_list',
+      value: '/menu/sharedequity/searchshequownersbyproperty',
+      text: 'Search Shared Equity Owners by Property',
+      disabled: false,
+      checked: false,
+      color: 'secondary'
+    }, {
+      id: '12',
+      name: 'radio_list',
+      value: '/menu/sharedequity/searchshequownersbyname',
+      text: 'Search Shared Equity Owners by Name',
+      disabled: false,
+      checked: false,
+      color: 'primary'
+    }, {
+      id: '13',
+      name: 'radio_list',
+      value: '/menu/sharedequity/searchdocsbyshequowner',
+      text: 'Search Documents by Shared Equity Owner',
+      disabled: false,
+      checked: false,
+      color: 'secondary'
+    }, {
+      id: '14',
+      name: 'radio_list',
       value: '/menu/sharedequity/filingshequ',
       text: 'Filing',
       disabled: false,
       checked: false,
-      color: 'secondary'
+      color: 'primary'
     }
   ];
   

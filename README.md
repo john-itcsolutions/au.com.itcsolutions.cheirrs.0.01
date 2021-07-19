@@ -18,7 +18,7 @@ It is a Kubernetes-based repo, designed for intallation of a juju charms kuberne
 
 On that repo you will find the 'smart-web' server, which provides access for requests from this cheirrs Front End to the PostgreSQL 'haus' database, via JavaScript calls to gRPC protocol buffers (yet to be) included in au.com.itcsolutions.cheirrs, but ready now, and implemented in python3.
 
-The 'haus' database incorporates the cheirrs, cheirrs_oseer, a_horse and other schema (for other dApps) for the database to store, compute/process and report on data. The database backup files are private, and not made available in the public repository.
+The 'haus' database incorporates the cheirrs, cheirrs_oseer, das_fuhrwerk and other schema (for other dApps) for the database to store, compute/process and report on data. The database backup files are private, and not made available in the public repository.
 
 The a_horse schema is our company's own supervising schema for overseeing all operations at the topmost level, including the billing and accounting for customer enterprises.
 

@@ -20,13 +20,13 @@ On that repo you will find the 'smart-web' server, which provides access for req
 
 The 'haus' database incorporates the cheirrs, cheirrs_oseer, das_fuhrwerk and other schema (for other dApps) for the database to store, compute/process and report on data. The database backup files are private, and not made available in the public repository.
 
-The a_horse schema is our company's own supervising schema for overseeing all operations at the topmost level, including the billing and accounting for customer enterprises.
+The das_fuhrwerk schema is our company's own supervising schema for overseeing all operations at the topmost level, including the billing and accounting for customer enterprises.
 
 The cheirrs_oseer schema is responsible for overseeing Business Processes on the cheirrs schema. A similar approach is employed for the convey-IT and The General packages, with a user-level schema, and a supervising schema to programmatically oversee the user-level Business Processes.
 
 The smart-web server simultaneously provides a way of recording relevant auditable information and smart contract data on the relevant Elastos Blockchains in between writing to and reading data from 'haus'. Blockchain sections of all transactions occur first in the sequence of requests sent from the Front End dApp to the smart-web server (via gRPC protocols), with PostgreSQL database requests occurring secondarily, in order to ensure integrity of the data. This is because the Blockchains are immutable and serve as the ultimate sources of Truth about transaction input and result. The PostgreSQL calls are meant to write the 'bulk' transaction data to the centralised 'haus' Enterprise Relational Database (eventually situated in a public Cloud), rather than storing excessive amounts of data on Blockchains, which would be more expensive.
 
-Currently (April 2021) the Elastos Trinity Tech Team are developing an entirely revised method and structure for coding of Ionic front ends for Elastos. Advice on migration, so that our repo may use the new 'Elastos Essentials' Structure, will be available with the expected first stable release around July, 2021.
+Currently (April 2021) the Elastos Trinity Tech Team are developing an entirely revised method and structure for coding of Ionic front ends for Elastos. Advice on migration, so that our repo may use the new 'Elastos Essentials' Structure, may be available after the expected first stable release around July, 2021.
 
 The old Trinity-CLI will be discontinued in favour of using the native Ionic development/debugging/deployment process lifecycle instead of the old Trinity-CLI Toolchain. In addition Cordova Plugins will be accessed directly, rather than being wrapped inside Trinity methods and structures.
 

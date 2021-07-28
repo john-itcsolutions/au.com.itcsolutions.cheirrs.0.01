@@ -80,7 +80,7 @@ var AssetmngmntPageModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("ion-item ion-label {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-datetime {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-input {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-textarea {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-radio-group {\n  border: solid 1px #662861;\n  border-radius: 5px; }\n\nion-item ion-radio {\n  border: solid 1px #662861;\n  border-radius: 10px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzL3NyYy9hcHAvcGFnZXMvYXNzZXRtbmdtbnQvYXNzZXRtbmdtbnQucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRVEseUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixrQkFBa0IsRUFBQTs7QUFFekI7RUFFTyx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLGtCQUFrQixFQUFBOztBQUcxQjtFQUVRLHlCQUF5QjtFQUN6QiwrQkFBK0I7RUFDL0IsbUJBQW1CLEVBQUE7O0FBRXpCO0VBRU0seUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixtQkFBbUIsRUFBQTs7QUFFekI7RUFFTSx5QkFBeUI7RUFDekIsa0JBQWtCLEVBQUE7O0FBRXhCO0VBRU0seUJBQXlCO0VBQ3pCLG1CQUFtQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvYXNzZXRtbmdtbnQvYXNzZXRtbmdtbnQucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWl0ZW17XG4gICAgaW9uLWxhYmVse1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggNHB4IDVweCAjZjVjZmI1O1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7IFxuICAgIH1cbn1pb24taXRlbXtcbiAgICBpb24tZGF0ZXRpbWV7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDsgXG4gICAgfVxufVxuaW9uLWl0ZW17XG4gICAgaW9uLWlucHV0e1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggNHB4IDVweCAjZjVjZmI1O1xuICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIH1cbiB9aW9uLWl0ZW17XG4gICAgaW9uLXRleHRhcmVhe1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggNHB4IDVweCAjZjVjZmI1O1xuICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIH1cbiB9aW9uLWl0ZW17XG4gICAgaW9uLXJhZGlvLWdyb3Vwe1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tcmFkaW97XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("ion-item ion-label {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-datetime {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-input {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-textarea {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-radio-group {\n  border: solid 1px #662861;\n  border-radius: 5px; }\n\nion-item ion-radio {\n  border: solid 1px #662861;\n  border-radius: 10px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzLjAuMDEvc3JjL2FwcC9wYWdlcy9hc3NldG1uZ21udC9hc3NldG1uZ21udC5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFUSx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLGtCQUFrQixFQUFBOztBQUV6QjtFQUVPLHlCQUF5QjtFQUN6QiwrQkFBK0I7RUFDL0Isa0JBQWtCLEVBQUE7O0FBRzFCO0VBRVEseUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixtQkFBbUIsRUFBQTs7QUFFekI7RUFFTSx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLG1CQUFtQixFQUFBOztBQUV6QjtFQUVNLHlCQUF5QjtFQUN6QixrQkFBa0IsRUFBQTs7QUFFeEI7RUFFTSx5QkFBeUI7RUFDekIsbUJBQW1CLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9hc3NldG1uZ21udC9hc3NldG1uZ21udC5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24taXRlbXtcbiAgICBpb24tbGFiZWx7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDsgXG4gICAgfVxufWlvbi1pdGVte1xuICAgIGlvbi1kYXRldGltZXtcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm94LXNoYWRvdzogMHB4IDRweCA1cHggI2Y1Y2ZiNTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4OyBcbiAgICB9XG59XG5pb24taXRlbXtcbiAgICBpb24taW5wdXR7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tdGV4dGFyZWF7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tcmFkaW8tZ3JvdXB7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICB9XG4gfWlvbi1pdGVte1xuICAgIGlvbi1yYWRpb3tcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICB9XG4gfSJdfQ== */");
 
 /***/ }),
 
@@ -238,115 +238,123 @@ var AssetmngmntPage = /** @class */ (function () {
             }, {
                 id: '15',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/proposemaintsupplier',
-                text: 'Propose Supplier for Maintenance',
+                value: '/menu/assetmngmnt/currentmaintquotes',
+                text: 'Current Maintenance Quotes',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '16',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/issuepurchorder',
-                text: 'Issue Purchase Order',
+                value: '/menu/assetmngmnt/proposemaintsupplier',
+                text: 'Propose Supplier for Maintenance',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '17',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/inspectwork',
-                text: 'Inspect Maintenance Work',
+                value: '/menu/assetmngmnt/issuepurchorder',
+                text: 'Issue Purchase Order',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '18',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/receivebillformaintworkassets',
-                text: 'Receive Bill for Maintenance on Property',
+                value: '/menu/assetmngmnt/inspectwork',
+                text: 'Inspect Maintenance Work',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '19',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/paybillformaintworkassets',
-                text: 'Pay Bill for Maintenance on Property',
+                value: '/menu/assetmngmnt/receivebillformaintworkassets',
+                text: 'Receive Bill for Maintenance on Property',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '20',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/complaintaboutmaintenancedone',
-                text: 'Complaint About Maintenance Performed',
+                value: '/menu/assetmngmnt/paybillformaintworkassets',
+                text: 'Pay Bill for Maintenance on Property',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '21',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/registervacantorvoid',
-                text: 'Register Vacant or Void Property',
+                value: '/menu/assetmngmnt/complaintaboutmaintenancedone',
+                text: 'Complaints About Maintenance Performed',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '22',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/vacantsandvoids',
-                text: 'Vacants and Voids',
+                value: '/menu/assetmngmnt/registervacantorvoid',
+                text: 'Register Vacant or Void Property',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '23',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/cleanupvacatedproperty',
-                text: 'Cleanup Vacated Property - Charge Against Bond',
+                value: '/menu/assetmngmnt/vacantsandvoids',
+                text: 'Vacants and Voids',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '24',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/supplierheadersassets',
-                text: 'Supplier Headers',
+                value: '/menu/assetmngmnt/cleanupvacatedproperty',
+                text: 'Cleanup Vacated Property - Charge Against Bond',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '25',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/suppliertxassets',
-                text: 'Supplier Transactions',
+                value: '/menu/assetmngmnt/supplierheadersassets',
+                text: 'Supplier Headers',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '26',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/keyregisterassets',
-                text: 'Key Register',
+                value: '/menu/assetmngmnt/suppliertxassets',
+                text: 'Supplier Transactions',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '27',
                 name: 'radio_list',
-                value: '/menu/assetmngmnt/maintenancecomplaint',
-                text: 'Maintenance Not Performed Complaint',
+                value: '/menu/assetmngmnt/keyregisterassets',
+                text: 'Key Register',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '28',
                 name: 'radio_list',
+                value: '/menu/assetmngmnt/maintenancecomplaint',
+                text: 'Maintenance Not Done Complaints',
+                disabled: false,
+                checked: false,
+                color: 'primary'
+            }, {
+                id: '29',
+                name: 'radio_list',
                 value: '/menu/assetmngmnt/filingassets',
                 text: 'Filing',
                 disabled: false,
                 checked: false,
-                color: 'primary'
+                color: 'secondary'
             }
         ];
     }

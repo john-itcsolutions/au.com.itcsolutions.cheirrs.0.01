@@ -80,7 +80,7 @@ var TenancymngmntPageModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("ion-item ion-label {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-datetime {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-input {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-textarea {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-radio-group {\n  border: solid 1px #662861;\n  border-radius: 5px; }\n\nion-item ion-radio {\n  border: solid 1px #662861;\n  border-radius: 10px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzL3NyYy9hcHAvcGFnZXMvdGVuYW5jeW1uZ21udC90ZW5hbmN5bW5nbW50LnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVRLHlCQUF5QjtFQUN6QiwrQkFBK0I7RUFDL0Isa0JBQWtCLEVBQUE7O0FBRXpCO0VBRU8seUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixrQkFBa0IsRUFBQTs7QUFHMUI7RUFFUSx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLG1CQUFtQixFQUFBOztBQUV6QjtFQUVNLHlCQUF5QjtFQUN6QiwrQkFBK0I7RUFDL0IsbUJBQW1CLEVBQUE7O0FBRXpCO0VBRU0seUJBQXlCO0VBQ3pCLGtCQUFrQixFQUFBOztBQUV4QjtFQUVNLHlCQUF5QjtFQUN6QixtQkFBbUIsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3RlbmFuY3ltbmdtbnQvdGVuYW5jeW1uZ21udC5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24taXRlbXtcbiAgICBpb24tbGFiZWx7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDsgXG4gICAgfVxufWlvbi1pdGVte1xuICAgIGlvbi1kYXRldGltZXtcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm94LXNoYWRvdzogMHB4IDRweCA1cHggI2Y1Y2ZiNTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4OyBcbiAgICB9XG59XG5pb24taXRlbXtcbiAgICBpb24taW5wdXR7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tdGV4dGFyZWF7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tcmFkaW8tZ3JvdXB7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICB9XG4gfWlvbi1pdGVte1xuICAgIGlvbi1yYWRpb3tcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICB9XG4gfSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("ion-item ion-label {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-datetime {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-input {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-textarea {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-radio-group {\n  border: solid 1px #662861;\n  border-radius: 5px; }\n\nion-item ion-radio {\n  border: solid 1px #662861;\n  border-radius: 10px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzLjAuMDEvc3JjL2FwcC9wYWdlcy90ZW5hbmN5bW5nbW50L3RlbmFuY3ltbmdtbnQucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRVEseUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixrQkFBa0IsRUFBQTs7QUFFekI7RUFFTyx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLGtCQUFrQixFQUFBOztBQUcxQjtFQUVRLHlCQUF5QjtFQUN6QiwrQkFBK0I7RUFDL0IsbUJBQW1CLEVBQUE7O0FBRXpCO0VBRU0seUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixtQkFBbUIsRUFBQTs7QUFFekI7RUFFTSx5QkFBeUI7RUFDekIsa0JBQWtCLEVBQUE7O0FBRXhCO0VBRU0seUJBQXlCO0VBQ3pCLG1CQUFtQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvdGVuYW5jeW1uZ21udC90ZW5hbmN5bW5nbW50LnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImlvbi1pdGVte1xuICAgIGlvbi1sYWJlbHtcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm94LXNoYWRvdzogMHB4IDRweCA1cHggI2Y1Y2ZiNTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4OyBcbiAgICB9XG59aW9uLWl0ZW17XG4gICAgaW9uLWRhdGV0aW1le1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggNHB4IDVweCAjZjVjZmI1O1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7IFxuICAgIH1cbn1cbmlvbi1pdGVte1xuICAgIGlvbi1pbnB1dHtcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm94LXNoYWRvdzogMHB4IDRweCA1cHggI2Y1Y2ZiNTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICB9XG4gfWlvbi1pdGVte1xuICAgIGlvbi10ZXh0YXJlYXtcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm94LXNoYWRvdzogMHB4IDRweCA1cHggI2Y1Y2ZiNTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICB9XG4gfWlvbi1pdGVte1xuICAgIGlvbi1yYWRpby1ncm91cHtcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIH1cbiB9aW9uLWl0ZW17XG4gICAgaW9uLXJhZGlve1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIH1cbiB9Il19 */");
 
 /***/ }),
 
@@ -120,8 +120,7 @@ var TenancymngmntPage = /** @class */ (function () {
                 disabled: false,
                 checked: false,
                 color: 'primary'
-            },
-            {
+            }, {
                 id: '1',
                 name: 'radio_list',
                 value: '/menu/tenancymngmnt/propertyinspections',
@@ -132,105 +131,105 @@ var TenancymngmntPage = /** @class */ (function () {
             }, {
                 id: '2',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/reportdamagebytenant',
-                text: 'Report Damage by Tenant',
+                value: '/menu/tenancymngmnt/maintreqtenmngmnt',
+                text: 'Maintenance Request',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '3',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/reportpropcareissues',
-                text: 'Report Property Care Issues',
+                value: '/menu/tenancymngmnt/reportdamagebytenant',
+                text: 'Report Damage by Tenant',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '4',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/reportabandonedpremises',
-                text: 'Report Abandoned Premises',
+                value: '/menu/tenancymngmnt/reportpropcareissues',
+                text: 'Report Property Care Issues',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '5',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/complaint',
-                text: 'Report Neighbour/Police Complaint',
+                value: '/menu/tenancymngmnt/reportabandonedpremises',
+                text: 'Report Abandoned Premises',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '6',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/complaintbytenant',
-                text: 'Complaint by Tenant',
+                value: '/menu/tenancymngmnt/complaint',
+                text: 'Report Neighbour/Police Complaint',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '7',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/corroandcommswithtenant',
-                text: 'Correspondence & Communications with Tenant',
+                value: '/menu/tenancymngmnt/complaintbytenant',
+                text: 'Complaint by Tenant',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '8',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/searchtenantsbyproptenmngmnt',
-                text: 'Search Tenants by Property',
+                value: '/menu/tenancymngmnt/corroandcommswithtenant',
+                text: 'Correspondence & Communications with Tenant',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '9',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/searchtenantsledgerbytenant',
-                text: 'Search Tenants Ledger by Tenant',
+                value: '/menu/tenancymngmnt/searchtenantsbyproptenmngmnt',
+                text: 'Search Tenants by Property',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '10',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/searchdocsbytenant',
-                text: 'Search Documents by Tenant',
+                value: '/menu/tenancymngmnt/searchtenantsledgerbytenant',
+                text: 'Search Tenants Ledger by Tenant',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '11',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/newarrearsagreement',
-                text: 'New Arrears Agreement',
+                value: '/menu/tenancymngmnt/searchdocsbytenant',
+                text: 'Search Documents by Tenant',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '12',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/renegotiatearrearsagreement',
-                text: 'Renegotiate Arrears Agreement',
+                value: '/menu/tenancymngmnt/newarrearsagreement',
+                text: 'New Arrears Agreement',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '13',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/arrearssagreementsbytenant',
-                text: 'Arrears Agreements by Tenant',
+                value: '/menu/tenancymngmnt/renegotiatearrearsagreement',
+                text: 'Renegotiate Arrears Agreement',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '14',
                 name: 'radio_list',
-                value: '/menu/tenancymngmnt/linktotica',
-                text: 'Link to TICA',
-                disabled: true,
+                value: '/menu/tenancymngmnt/arrearssagreementsbytenant',
+                text: 'Arrears Agreements by Tenant',
+                disabled: false,
                 checked: false,
                 color: 'primary'
             }, {

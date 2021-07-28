@@ -204,6 +204,10 @@ var map = {
 		"./src/app/pages/crm/crm.module.ts",
 		"crm-crm-module"
 	],
+	"../currentmaintquotes/currentmaintquotes.module": [
+		"./src/app/pages/currentmaintquotes/currentmaintquotes.module.ts",
+		"currentmaintquotes-currentmaintquotes-module"
+	],
 	"../customercomplaint/customercomplaint.module": [
 		"./src/app/pages/customercomplaint/customercomplaint.module.ts",
 		"customercomplaint-customercomplaint-module"
@@ -263,6 +267,10 @@ var map = {
 	"../employeeheaders/employeeheaders.module": [
 		"./src/app/pages/employeeheaders/employeeheaders.module.ts",
 		"employeeheaders-employeeheaders-module"
+	],
+	"../employeemediation/employeemediation.module": [
+		"./src/app/pages/employeemediation/employeemediation.module.ts",
+		"employeemediation-employeemediation-module"
 	],
 	"../employeeorsalesagentcontact/employeeorsalesagentcontact.module": [
 		"./src/app/pages/employeeorsalesagentcontact/employeeorsalesagentcontact.module.ts",
@@ -368,6 +376,14 @@ var map = {
 		"./src/app/pages/financialtxjournal/financialtxjournal.module.ts",
 		"financialtxjournal-financialtxjournal-module"
 	],
+	"../firstaidadmin/firstaidadmin.module": [
+		"./src/app/pages/firstaidadmin/firstaidadmin.module.ts",
+		"firstaidadmin-firstaidadmin-module"
+	],
+	"../firstaidhr/firstaidhr.module": [
+		"./src/app/pages/firstaidhr/firstaidhr.module.ts",
+		"firstaidhr-firstaidhr-module"
+	],
 	"../gathermaintenancequotes/gathermaintenancequotes.module": [
 		"./src/app/pages/gathermaintenancequotes/gathermaintenancequotes.module.ts",
 		"gathermaintenancequotes-gathermaintenancequotes-module"
@@ -468,6 +484,14 @@ var map = {
 		"./src/app/pages/issuereceiptmtgepaymntshequ/issuereceiptmtgepaymntshequ.module.ts",
 		"issuereceiptmtgepaymntshequ-issuereceiptmtgepaymntshequ-module"
 	],
+	"../issuerentreceiptsadmin/issuerentreceiptsadmin.module": [
+		"./src/app/pages/issuerentreceiptsadmin/issuerentreceiptsadmin.module.ts",
+		"issuerentreceiptsadmin-issuerentreceiptsadmin-module"
+	],
+	"../jobdescriptionshr/jobdescriptionshr.module": [
+		"./src/app/pages/jobdescriptionshr/jobdescriptionshr.module.ts",
+		"jobdescriptionshr-jobdescriptionshr-module"
+	],
 	"../keyregisterassets/keyregisterassets.module": [
 		"./src/app/pages/keyregisterassets/keyregisterassets.module.ts",
 		"keyregisterassets-keyregisterassets-module"
@@ -564,6 +588,10 @@ var map = {
 		"./src/app/pages/maintreq/maintreq.module.ts",
 		"maintreq-maintreq-module"
 	],
+	"../maintreqtenmngmnt/maintreqtenmngmnt.module": [
+		"./src/app/pages/maintreqtenmngmnt/maintreqtenmngmnt.module.ts",
+		"maintreqtenmngmnt-maintreqtenmngmnt-module"
+	],
 	"../marketnets/marketnets.module": [
 		"./src/app/pages/marketnets/marketnets.module.ts",
 		"marketnets-marketnets-module"
@@ -592,9 +620,17 @@ var map = {
 		"./src/app/pages/mediatxes/mediatxes.module.ts",
 		"mediatxes-mediatxes-module"
 	],
+	"../mortgageagreement/mortgageagreement.module": [
+		"./src/app/pages/mortgageagreement/mortgageagreement.module.ts",
+		"mortgageagreement-mortgageagreement-module"
+	],
 	"../myemploymentcontract/myemploymentcontract.module": [
 		"./src/app/pages/myemploymentcontract/myemploymentcontract.module.ts",
 		"myemploymentcontract-myemploymentcontract-module"
+	],
+	"../myjobdescription/myjobdescription.module": [
+		"./src/app/pages/myjobdescription/myjobdescription.module.ts",
+		"myjobdescription-myjobdescription-module"
 	],
 	"../myleavehistory/myleavehistory.module": [
 		"./src/app/pages/myleavehistory/myleavehistory.module.ts",
@@ -756,6 +792,14 @@ var map = {
 		"./src/app/pages/propertytx/propertytx.module.ts",
 		"propertytx-propertytx-module"
 	],
+	"../propertyvaluesrental/propertyvaluesrental.module": [
+		"./src/app/pages/propertyvaluesrental/propertyvaluesrental.module.ts",
+		"propertyvaluesrental-propertyvaluesrental-module"
+	],
+	"../propertyvaluessale/propertyvaluessale.module": [
+		"./src/app/pages/propertyvaluessale/propertyvaluessale.module.ts",
+		"propertyvaluessale-propertyvaluessale-module"
+	],
 	"../proposemaintsupplier/proposemaintsupplier.module": [
 		"./src/app/pages/proposemaintsupplier/proposemaintsupplier.module.ts",
 		"proposemaintsupplier-proposemaintsupplier-module"
@@ -828,6 +872,10 @@ var map = {
 		"./src/app/pages/rdevelsumissionstogovtitleholders/rdevelsumissionstogovtitleholders.module.ts",
 		"rdevelsumissionstogovtitleholders-rdevelsumissionstogovtitleholders-module"
 	],
+	"../rdvlpfundingsubmissions/rdvlpfundingsubmissions.module": [
+		"./src/app/pages/rdvlpfundingsubmissions/rdvlpfundingsubmissions.module.ts",
+		"rdvlpfundingsubmissions-rdvlpfundingsubmissions-module"
+	],
 	"../receivebillforwork/receivebillforwork.module": [
 		"./src/app/pages/receivebillforwork/receivebillforwork.module.ts",
 		"receivebillforwork-receivebillforwork-module"
@@ -888,6 +936,10 @@ var map = {
 		"./src/app/pages/registerinvestors/registerinvestors.module.ts",
 		"registerinvestors-registerinvestors-module"
 	],
+	"../registerlead/registerlead.module": [
+		"./src/app/pages/registerlead/registerlead.module.ts",
+		"registerlead-registerlead-module"
+	],
 	"../registerllords/registerllords.module": [
 		"./src/app/pages/registerllords/registerllords.module.ts",
 		"registerllords-registerllords-module"
@@ -935,6 +987,18 @@ var map = {
 	"../reporting/reporting.module": [
 		"./src/app/pages/reporting/reporting.module.ts",
 		"reporting-reporting-module"
+	],
+	"../reportingacctspayableauditing/reportingacctspayableauditing.module": [
+		"./src/app/pages/reportingacctspayableauditing/reportingacctspayableauditing.module.ts",
+		"reportingacctspayableauditing-reportingacctspayableauditing-module"
+	],
+	"../reportingacctsrecvableauditing/reportingacctsrecvableauditing.module": [
+		"./src/app/pages/reportingacctsrecvableauditing/reportingacctsrecvableauditing.module.ts",
+		"reportingacctsrecvableauditing-reportingacctsrecvableauditing-module"
+	],
+	"../reportingwhsauditing/reportingwhsauditing.module": [
+		"./src/app/pages/reportingwhsauditing/reportingwhsauditing.module.ts",
+		"reportingwhsauditing-reportingwhsauditing-module"
 	],
 	"../reportoperationalplan/reportoperationalplan.module": [
 		"./src/app/pages/reportoperationalplan/reportoperationalplan.module.ts",
@@ -1000,9 +1064,17 @@ var map = {
 		"./src/app/pages/risktolerances/risktolerances.module.ts",
 		"risktolerances-risktolerances-module"
 	],
+	"../rolesandemployees/rolesandemployees.module": [
+		"./src/app/pages/rolesandemployees/rolesandemployees.module.ts",
+		"rolesandemployees-rolesandemployees-module"
+	],
 	"../rollingassetmaintbudgets/rollingassetmaintbudgets.module": [
 		"./src/app/pages/rollingassetmaintbudgets/rollingassetmaintbudgets.module.ts",
 		"rollingassetmaintbudgets-rollingassetmaintbudgets-module"
+	],
+	"../rskmngmntcommntyrptationrisk/rskmngmntcommntyrptationrisk.module": [
+		"./src/app/pages/rskmngmntcommntyrptationrisk/rskmngmntcommntyrptationrisk.module.ts",
+		"rskmngmntcommntyrptationrisk-rskmngmntcommntyrptationrisk-module"
 	],
 	"../safetyincidents/safetyincidents.module": [
 		"./src/app/pages/safetyincidents/safetyincidents.module.ts",
@@ -1091,6 +1163,10 @@ var map = {
 	"../searchdocsbyshequowner/searchdocsbyshequowner.module": [
 		"./src/app/pages/searchdocsbyshequowner/searchdocsbyshequowner.module.ts",
 		"searchdocsbyshequowner-searchdocsbyshequowner-module"
+	],
+	"../searchdocsbyshequproperty/searchdocsbyshequproperty.module": [
+		"./src/app/pages/searchdocsbyshequproperty/searchdocsbyshequproperty.module.ts",
+		"searchdocsbyshequproperty-searchdocsbyshequproperty-module"
 	],
 	"../searchdocsbytenant/searchdocsbytenant.module": [
 		"./src/app/pages/searchdocsbytenant/searchdocsbytenant.module.ts",
@@ -1192,6 +1268,18 @@ var map = {
 		"./src/app/pages/sharedequownercomplaint/sharedequownercomplaint.module.ts",
 		"sharedequownercomplaint-sharedequownercomplaint-module"
 	],
+	"../shequmakeoffertoapplicant/shequmakeoffertoapplicant.module": [
+		"./src/app/pages/shequmakeoffertoapplicant/shequmakeoffertoapplicant.module.ts",
+		"shequmakeoffertoapplicant-shequmakeoffertoapplicant-module"
+	],
+	"../shequreceiveapplication/shequreceiveapplication.module": [
+		"./src/app/pages/shequreceiveapplication/shequreceiveapplication.module.ts",
+		"shequreceiveapplication-shequreceiveapplication-module"
+	],
+	"../shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module": [
+		"./src/app/pages/shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module.ts",
+		"shequregistershequitymtgageagrmnt-shequregistershequitymtgageagrmnt-module"
+	],
 	"../signlease/signlease.module": [
 		"./src/app/pages/signlease/signlease.module.ts",
 		"signlease-signlease-module"
@@ -1207,6 +1295,14 @@ var map = {
 	"../stratbusinessplanning/stratbusinessplanning.module": [
 		"./src/app/pages/stratbusinessplanning/stratbusinessplanning.module.ts",
 		"stratbusinessplanning-stratbusinessplanning-module"
+	],
+	"../strategicconstitution/strategicconstitution.module": [
+		"./src/app/pages/strategicconstitution/strategicconstitution.module.ts",
+		"strategicconstitution-strategicconstitution-module"
+	],
+	"../strategicmission/strategicmission.module": [
+		"./src/app/pages/strategicmission/strategicmission.module.ts",
+		"strategicmission-strategicmission-module"
 	],
 	"../strategicopportunities/strategicopportunities.module": [
 		"./src/app/pages/strategicopportunities/strategicopportunities.module.ts",
@@ -1232,6 +1328,10 @@ var map = {
 		"./src/app/pages/strategicthreats/strategicthreats.module.ts",
 		"strategicthreats-strategicthreats-module"
 	],
+	"../strategicvision/strategicvision.module": [
+		"./src/app/pages/strategicvision/strategicvision.module.ts",
+		"strategicvision-strategicvision-module"
+	],
 	"../strategicweaknesses/strategicweaknesses.module": [
 		"./src/app/pages/strategicweaknesses/strategicweaknesses.module.ts",
 		"strategicweaknesses-strategicweaknesses-module"
@@ -1239,6 +1339,14 @@ var map = {
 	"../stratoperationalplanning/stratoperationalplanning.module": [
 		"./src/app/pages/stratoperationalplanning/stratoperationalplanning.module.ts",
 		"stratoperationalplanning-stratoperationalplanning-module"
+	],
+	"../stratthreatsrskmngmnt/stratthreatsrskmngmnt.module": [
+		"./src/app/pages/stratthreatsrskmngmnt/stratthreatsrskmngmnt.module.ts",
+		"stratthreatsrskmngmnt-stratthreatsrskmngmnt-module"
+	],
+	"../stratweaknessesrskmngmnt/stratweaknessesrskmngmnt.module": [
+		"./src/app/pages/stratweaknessesrskmngmnt/stratweaknessesrskmngmnt.module.ts",
+		"stratweaknessesrskmngmnt-stratweaknessesrskmngmnt-module"
 	],
 	"../summaryofpropertyissuesbyprop/summaryofpropertyissuesbyprop.module": [
 		"./src/app/pages/summaryofpropertyissuesbyprop/summaryofpropertyissuesbyprop.module.ts",
@@ -1616,6 +1724,10 @@ var map = {
 		"./src/app/pages/criminalrecordchecking/criminalrecordchecking.module.ts",
 		"pages-criminalrecordchecking-criminalrecordchecking-module"
 	],
+	"./pages/currentmaintquotes/currentmaintquotes.module": [
+		"./src/app/pages/currentmaintquotes/currentmaintquotes.module.ts",
+		"currentmaintquotes-currentmaintquotes-module"
+	],
 	"./pages/customercomplaint/customercomplaint.module": [
 		"./src/app/pages/customercomplaint/customercomplaint.module.ts",
 		"customercomplaint-customercomplaint-module"
@@ -1659,6 +1771,10 @@ var map = {
 	"./pages/employeecomplaintbyemployee/employeecomplaintbyemployee.module": [
 		"./src/app/pages/employeecomplaintbyemployee/employeecomplaintbyemployee.module.ts",
 		"employeecomplaintbyemployee-employeecomplaintbyemployee-module"
+	],
+	"./pages/employeemediation/employeemediation.module": [
+		"./src/app/pages/employeemediation/employeemediation.module.ts",
+		"employeemediation-employeemediation-module"
 	],
 	"./pages/employeerelationsrisk/employeerelationsrisk.module": [
 		"./src/app/pages/employeerelationsrisk/employeerelationsrisk.module.ts",
@@ -1756,6 +1872,14 @@ var map = {
 		"./src/app/pages/financialrisk/financialrisk.module.ts",
 		"financialrisk-financialrisk-module"
 	],
+	"./pages/firstaidadmin/firstaidadmin.module": [
+		"./src/app/pages/firstaidadmin/firstaidadmin.module.ts",
+		"firstaidadmin-firstaidadmin-module"
+	],
+	"./pages/firstaidhr/firstaidhr.module": [
+		"./src/app/pages/firstaidhr/firstaidhr.module.ts",
+		"firstaidhr-firstaidhr-module"
+	],
 	"./pages/governmentcomplaint/governmentcomplaint.module": [
 		"./src/app/pages/governmentcomplaint/governmentcomplaint.module.ts",
 		"governmentcomplaint-governmentcomplaint-module"
@@ -1819,6 +1943,14 @@ var map = {
 	"./pages/issuerentreceipts/issuerentreceipts.module": [
 		"./src/app/pages/issuerentreceipts/issuerentreceipts.module.ts",
 		"pages-issuerentreceipts-issuerentreceipts-module"
+	],
+	"./pages/issuerentreceiptsadmin/issuerentreceiptsadmin.module": [
+		"./src/app/pages/issuerentreceiptsadmin/issuerentreceiptsadmin.module.ts",
+		"issuerentreceiptsadmin-issuerentreceiptsadmin-module"
+	],
+	"./pages/jobdescriptionshr/jobdescriptionshr.module": [
+		"./src/app/pages/jobdescriptionshr/jobdescriptionshr.module.ts",
+		"jobdescriptionshr-jobdescriptionshr-module"
 	],
 	"./pages/keyregisterassets/keyregisterassets.module": [
 		"./src/app/pages/keyregisterassets/keyregisterassets.module.ts",
@@ -1892,6 +2024,10 @@ var map = {
 		"./src/app/pages/maintenancescheduling/maintenancescheduling.module.ts",
 		"maintenancescheduling-maintenancescheduling-module"
 	],
+	"./pages/maintreqtenmngmnt/maintreqtenmngmnt.module": [
+		"./src/app/pages/maintreqtenmngmnt/maintreqtenmngmnt.module.ts",
+		"maintreqtenmngmnt-maintreqtenmngmnt-module"
+	],
 	"./pages/makeofferofemployment/makeofferofemployment.module": [
 		"./src/app/pages/makeofferofemployment/makeofferofemployment.module.ts",
 		"pages-makeofferofemployment-makeofferofemployment-module"
@@ -1910,11 +2046,15 @@ var map = {
 	],
 	"./pages/mortgageagreement/mortgageagreement.module": [
 		"./src/app/pages/mortgageagreement/mortgageagreement.module.ts",
-		"pages-mortgageagreement-mortgageagreement-module"
+		"mortgageagreement-mortgageagreement-module"
 	],
 	"./pages/myemploymentcontract/myemploymentcontract.module": [
 		"./src/app/pages/myemploymentcontract/myemploymentcontract.module.ts",
 		"myemploymentcontract-myemploymentcontract-module"
+	],
+	"./pages/myjobdescription/myjobdescription.module": [
+		"./src/app/pages/myjobdescription/myjobdescription.module.ts",
+		"myjobdescription-myjobdescription-module"
 	],
 	"./pages/myleavehistory/myleavehistory.module": [
 		"./src/app/pages/myleavehistory/myleavehistory.module.ts",
@@ -2044,6 +2184,14 @@ var map = {
 		"./src/app/pages/propertyinspbyhousingmanager/propertyinspbyhousingmanager.module.ts",
 		"propertyinspbyhousingmanager-propertyinspbyhousingmanager-module"
 	],
+	"./pages/propertyvaluesrental/propertyvaluesrental.module": [
+		"./src/app/pages/propertyvaluesrental/propertyvaluesrental.module.ts",
+		"propertyvaluesrental-propertyvaluesrental-module"
+	],
+	"./pages/propertyvaluessale/propertyvaluessale.module": [
+		"./src/app/pages/propertyvaluessale/propertyvaluessale.module.ts",
+		"propertyvaluessale-propertyvaluessale-module"
+	],
 	"./pages/propinspectionstenancymngmnt/propinspectionstenancymngmnt.module": [
 		"./src/app/pages/propinspectionstenancymngmnt/propinspectionstenancymngmnt.module.ts",
 		"pages-propinspectionstenancymngmnt-propinspectionstenancymngmnt-module"
@@ -2104,6 +2252,10 @@ var map = {
 		"./src/app/pages/rdevelsumissionstogovtitleholders/rdevelsumissionstogovtitleholders.module.ts",
 		"rdevelsumissionstogovtitleholders-rdevelsumissionstogovtitleholders-module"
 	],
+	"./pages/rdvlpfundingsubmissions/rdvlpfundingsubmissions.module": [
+		"./src/app/pages/rdvlpfundingsubmissions/rdvlpfundingsubmissions.module.ts",
+		"rdvlpfundingsubmissions-rdvlpfundingsubmissions-module"
+	],
 	"./pages/reassignbusprocess/reassignbusprocess.module": [
 		"./src/app/pages/reassignbusprocess/reassignbusprocess.module.ts",
 		"pages-reassignbusprocess-reassignbusprocess-module"
@@ -2140,6 +2292,10 @@ var map = {
 		"./src/app/pages/registeremployee/registeremployee.module.ts",
 		"pages-registeremployee-registeremployee-module"
 	],
+	"./pages/registerlead/registerlead.module": [
+		"./src/app/pages/registerlead/registerlead.module.ts",
+		"registerlead-registerlead-module"
+	],
 	"./pages/registersalesagent/registersalesagent.module": [
 		"./src/app/pages/registersalesagent/registersalesagent.module.ts",
 		"pages-registersalesagent-registersalesagent-module"
@@ -2171,6 +2327,18 @@ var map = {
 	"./pages/reportcfomultiflex/reportcfomultiflex.module": [
 		"./src/app/pages/reportcfomultiflex/reportcfomultiflex.module.ts",
 		"reportcfomultiflex-reportcfomultiflex-module"
+	],
+	"./pages/reportingacctspayableauditing/reportingacctspayableauditing.module": [
+		"./src/app/pages/reportingacctspayableauditing/reportingacctspayableauditing.module.ts",
+		"reportingacctspayableauditing-reportingacctspayableauditing-module"
+	],
+	"./pages/reportingacctsrecvableauditing/reportingacctsrecvableauditing.module": [
+		"./src/app/pages/reportingacctsrecvableauditing/reportingacctsrecvableauditing.module.ts",
+		"reportingacctsrecvableauditing-reportingacctsrecvableauditing-module"
+	],
+	"./pages/reportingwhsauditing/reportingwhsauditing.module": [
+		"./src/app/pages/reportingwhsauditing/reportingwhsauditing.module.ts",
+		"reportingwhsauditing-reportingwhsauditing-module"
 	],
 	"./pages/reportneighbourpolicecomplaint/reportneighbourpolicecomplaint.module": [
 		"./src/app/pages/reportneighbourpolicecomplaint/reportneighbourpolicecomplaint.module.ts",
@@ -2236,9 +2404,17 @@ var map = {
 		"./src/app/pages/risktolerances/risktolerances.module.ts",
 		"risktolerances-risktolerances-module"
 	],
+	"./pages/rolesandemployees/rolesandemployees.module": [
+		"./src/app/pages/rolesandemployees/rolesandemployees.module.ts",
+		"rolesandemployees-rolesandemployees-module"
+	],
 	"./pages/rollingassetmaintbudgets/rollingassetmaintbudgets.module": [
 		"./src/app/pages/rollingassetmaintbudgets/rollingassetmaintbudgets.module.ts",
 		"rollingassetmaintbudgets-rollingassetmaintbudgets-module"
+	],
+	"./pages/rskmngmntcommntyrptationrisk/rskmngmntcommntyrptationrisk.module": [
+		"./src/app/pages/rskmngmntcommntyrptationrisk/rskmngmntcommntyrptationrisk.module.ts",
+		"rskmngmntcommntyrptationrisk-rskmngmntcommntyrptationrisk-module"
 	],
 	"./pages/safetyincidents/safetyincidents.module": [
 		"./src/app/pages/safetyincidents/safetyincidents.module.ts",
@@ -2323,6 +2499,10 @@ var map = {
 	"./pages/searchdocsbyshequowner/searchdocsbyshequowner.module": [
 		"./src/app/pages/searchdocsbyshequowner/searchdocsbyshequowner.module.ts",
 		"searchdocsbyshequowner-searchdocsbyshequowner-module"
+	],
+	"./pages/searchdocsbyshequproperty/searchdocsbyshequproperty.module": [
+		"./src/app/pages/searchdocsbyshequproperty/searchdocsbyshequproperty.module.ts",
+		"searchdocsbyshequproperty-searchdocsbyshequproperty-module"
 	],
 	"./pages/searchemplandagentstxespr/searchemplandagentstxespr.module": [
 		"./src/app/pages/searchemplandagentstxespr/searchemplandagentstxespr.module.ts",
@@ -2428,6 +2608,18 @@ var map = {
 		"./src/app/pages/sharedequownercomplaint/sharedequownercomplaint.module.ts",
 		"sharedequownercomplaint-sharedequownercomplaint-module"
 	],
+	"./pages/shequmakeoffertoapplicant/shequmakeoffertoapplicant.module": [
+		"./src/app/pages/shequmakeoffertoapplicant/shequmakeoffertoapplicant.module.ts",
+		"shequmakeoffertoapplicant-shequmakeoffertoapplicant-module"
+	],
+	"./pages/shequreceiveapplication/shequreceiveapplication.module": [
+		"./src/app/pages/shequreceiveapplication/shequreceiveapplication.module.ts",
+		"shequreceiveapplication-shequreceiveapplication-module"
+	],
+	"./pages/shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module": [
+		"./src/app/pages/shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module.ts",
+		"shequregistershequitymtgageagrmnt-shequregistershequitymtgageagrmnt-module"
+	],
 	"./pages/shortlistapplicants/shortlistapplicants.module": [
 		"./src/app/pages/shortlistapplicants/shortlistapplicants.module.ts",
 		"pages-shortlistapplicants-shortlistapplicants-module"
@@ -2447,6 +2639,14 @@ var map = {
 	"./pages/stratbusinessplanning/stratbusinessplanning.module": [
 		"./src/app/pages/stratbusinessplanning/stratbusinessplanning.module.ts",
 		"stratbusinessplanning-stratbusinessplanning-module"
+	],
+	"./pages/strategicconstitution/strategicconstitution.module": [
+		"./src/app/pages/strategicconstitution/strategicconstitution.module.ts",
+		"strategicconstitution-strategicconstitution-module"
+	],
+	"./pages/strategicmission/strategicmission.module": [
+		"./src/app/pages/strategicmission/strategicmission.module.ts",
+		"strategicmission-strategicmission-module"
 	],
 	"./pages/strategicopportunities/strategicopportunities.module": [
 		"./src/app/pages/strategicopportunities/strategicopportunities.module.ts",
@@ -2472,6 +2672,10 @@ var map = {
 		"./src/app/pages/strategicthreats/strategicthreats.module.ts",
 		"strategicthreats-strategicthreats-module"
 	],
+	"./pages/strategicvision/strategicvision.module": [
+		"./src/app/pages/strategicvision/strategicvision.module.ts",
+		"strategicvision-strategicvision-module"
+	],
 	"./pages/strategicweaknesses/strategicweaknesses.module": [
 		"./src/app/pages/strategicweaknesses/strategicweaknesses.module.ts",
 		"strategicweaknesses-strategicweaknesses-module"
@@ -2479,6 +2683,14 @@ var map = {
 	"./pages/stratoperationalplanning/stratoperationalplanning.module": [
 		"./src/app/pages/stratoperationalplanning/stratoperationalplanning.module.ts",
 		"stratoperationalplanning-stratoperationalplanning-module"
+	],
+	"./pages/stratthreatsrskmngmnt/stratthreatsrskmngmnt.module": [
+		"./src/app/pages/stratthreatsrskmngmnt/stratthreatsrskmngmnt.module.ts",
+		"stratthreatsrskmngmnt-stratthreatsrskmngmnt-module"
+	],
+	"./pages/stratweaknessesrskmngmnt/stratweaknessesrskmngmnt.module": [
+		"./src/app/pages/stratweaknessesrskmngmnt/stratweaknessesrskmngmnt.module.ts",
+		"stratweaknessesrskmngmnt-stratweaknessesrskmngmnt-module"
 	],
 	"./pages/stspayroll/stspayroll.module": [
 		"./src/app/pages/stspayroll/stspayroll.module.ts",
@@ -3534,6 +3746,32 @@ var routes = [
     { path: 'reportoperationalplan', loadChildren: './pages/reportoperationalplan/reportoperationalplan.module#ReportoperationalplanPageModule' },
     { path: 'reportceomultiflex', loadChildren: './pages/reportceomultiflex/reportceomultiflex.module#ReportceomultiflexPageModule' },
     { path: 'reportcfomultiflex', loadChildren: './pages/reportcfomultiflex/reportcfomultiflex.module#ReportcfomultiflexPageModule' },
+    { path: 'strategicvision', loadChildren: './pages/strategicvision/strategicvision.module#StrategicvisionPageModule' },
+    { path: 'strategicmission', loadChildren: './pages/strategicmission/strategicmission.module#StrategicmissionPageModule' },
+    { path: 'strategicconstitution', loadChildren: './pages/strategicconstitution/strategicconstitution.module#StrategicconstitutionPageModule' },
+    { path: 'firstaidhr', loadChildren: './pages/firstaidhr/firstaidhr.module#FirstaidhrPageModule' },
+    { path: 'firstaidadmin', loadChildren: './pages/firstaidadmin/firstaidadmin.module#FirstaidadminPageModule' },
+    { path: 'issuerentreceiptsadmin', loadChildren: './pages/issuerentreceiptsadmin/issuerentreceiptsadmin.module#IssuerentreceiptsadminPageModule' },
+    { path: 'stratweaknessesrskmngmnt', loadChildren: './pages/stratweaknessesrskmngmnt/stratweaknessesrskmngmnt.module#StratweaknessesrskmngmntPageModule' },
+    { path: 'stratthreatsrskmngmnt', loadChildren: './pages/stratthreatsrskmngmnt/stratthreatsrskmngmnt.module#StratthreatsrskmngmntPageModule' },
+    { path: 'rskmngmntcommntyrptationrisk', loadChildren: './pages/rskmngmntcommntyrptationrisk/rskmngmntcommntyrptationrisk.module#RskmngmntcommntyrptationriskPageModule' },
+    { path: 'currentmaintquotes', loadChildren: './pages/currentmaintquotes/currentmaintquotes.module#CurrentmaintquotesPageModule' },
+    { path: 'maintreqtenmngmnt', loadChildren: './pages/maintreqtenmngmnt/maintreqtenmngmnt.module#MaintreqtenmngmntPageModule' },
+    { path: 'rolesandemployees', loadChildren: './pages/rolesandemployees/rolesandemployees.module#RolesandemployeesPageModule' },
+    { path: 'employeemediation', loadChildren: './pages/employeemediation/employeemediation.module#EmployeemediationPageModule' },
+    { path: 'propertyvaluessale', loadChildren: './pages/propertyvaluessale/propertyvaluessale.module#PropertyvaluessalePageModule' },
+    { path: 'propertyvaluesrental', loadChildren: './pages/propertyvaluesrental/propertyvaluesrental.module#PropertyvaluesrentalPageModule' },
+    { path: 'registerlead', loadChildren: './pages/registerlead/registerlead.module#RegisterleadPageModule' },
+    { path: 'myjobdescription', loadChildren: './pages/myjobdescription/myjobdescription.module#MyjobdescriptionPageModule' },
+    { path: 'rdvlpfundingsubmissions', loadChildren: './pages/rdvlpfundingsubmissions/rdvlpfundingsubmissions.module#RdvlpfundingsubmissionsPageModule' },
+    { path: 'jobdescriptionshr', loadChildren: './pages/jobdescriptionshr/jobdescriptionshr.module#JobdescriptionshrPageModule' },
+    { path: 'reportingwhsauditing', loadChildren: './pages/reportingwhsauditing/reportingwhsauditing.module#ReportingwhsauditingPageModule' },
+    { path: 'reportingacctspayableauditing', loadChildren: './pages/reportingacctspayableauditing/reportingacctspayableauditing.module#ReportingacctspayableauditingPageModule' },
+    { path: 'reportingacctsrecvableauditing', loadChildren: './pages/reportingacctsrecvableauditing/reportingacctsrecvableauditing.module#ReportingacctsrecvableauditingPageModule' },
+    { path: 'shequreceiveapplication', loadChildren: './pages/shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
+    { path: 'shequmakeoffertoapplicant', loadChildren: './pages/shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
+    { path: 'shequregistershequitymtgageagrmnt', loadChildren: './pages/shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module#ShequregistershequitymtgageagrmntPageModule' },
+    { path: 'searchdocsbyshequproperty', loadChildren: './pages/searchdocsbyshequproperty/searchdocsbyshequproperty.module#SearchdocsbyshequpropertyPageModule' },
 ];
 var Web3 = __webpack_require__(/*! web3 */ "./node_modules/web3/lib/index.js");
 var AppRoutingModule = /** @class */ (function () {
@@ -3563,7 +3801,7 @@ var AppRoutingModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("img {\n  width: 80px;\n  height: 80px;\n  border: solid 2px #000;\n  border-radius: 12px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVTtFQUFFLFlBQVc7RUFBRSxzQkFBc0I7RUFBRSxtQkFBbUIsRUFBQSIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XG4gIHdpZHRoOjgwcHg7IGhlaWdodDo4MHB4OyBib3JkZXI6IHNvbGlkIDJweCAjMDAwOyBib3JkZXItcmFkaXVzOiAxMnB4O1xufVxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("img {\n  width: 80px;\n  height: 80px;\n  border: solid 2px #000;\n  border-radius: 12px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzLjAuMDEvc3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFVO0VBQUUsWUFBVztFQUFFLHNCQUFzQjtFQUFFLG1CQUFtQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcbiAgd2lkdGg6ODBweDsgaGVpZ2h0OjgwcHg7IGJvcmRlcjogc29saWQgMnB4ICMwMDA7IGJvcmRlci1yYWRpdXM6IDEycHg7XG59XG4iXX0= */");
 
 /***/ }),
 
@@ -3779,7 +4017,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /mnt/home/postgres/Public/au.com.itcsolutions.cheirrs/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /mnt/home/postgres/Public/au.com.itcsolutions.cheirrs.0.01/src/main.ts */"./src/main.ts");
 
 
 /***/ }),

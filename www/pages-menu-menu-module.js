@@ -87,6 +87,9 @@ var routes = [
             { path: 'riskmngmnt/emergingrisks', loadChildren: '../emergingrisks/emergingrisks.module#EmergingrisksPageModule' },
             { path: 'riskmngmnt/risktolerances', loadChildren: '../risktolerances/risktolerances.module#RisktolerancesPageModule' },
             { path: 'riskmngmnt/riskmngmntplan', loadChildren: '../riskmngmntplan/riskmngmntplan.module#RiskmngmntplanPageModule' },
+            { path: 'riskmngmnt/stratweaknessesrskmngmnt', loadChildren: '../stratweaknessesrskmngmnt/stratweaknessesrskmngmnt.module#StratweaknessesrskmngmntPageModule' },
+            { path: 'riskmngmnt/stratthreatsrskmngmnt', loadChildren: '../stratthreatsrskmngmnt/stratthreatsrskmngmnt.module#StratthreatsrskmngmntPageModule' },
+            { path: 'riskmngmnt/rskmngmntcommntyrptationrisk', loadChildren: '../rskmngmntcommntyrptationrisk/rskmngmntcommntyrptationrisk.module#RskmngmntcommntyrptationriskPageModule' },
             {
                 path: 'riskmngmnt',
                 loadChildren: '../riskmngmnt/riskmngmnt.module#RiskmngmntPageModule'
@@ -104,6 +107,8 @@ var routes = [
             { path: 'property/filing', loadChildren: '../filing/filing.module#FilingPageModule' },
             { path: 'property/linktoconveyit', loadChildren: '../linktoconveyit/linktoconveyit.module#LinktoconveyitPageModule' },
             { path: 'property/searchacctsrecordsbyprop', loadChildren: '../searchacctsrecordsbyprop/searchacctsrecordsbyprop.module#SearchacctsrecordsbypropPageModule' },
+            { path: 'property/propertyvaluessale', loadChildren: '../propertyvaluessale/propertyvaluessale.module#PropertyvaluessalePageModule' },
+            { path: 'property/propertyvaluesrental', loadChildren: '../propertyvaluesrental/propertyvaluesrental.module#PropertyvaluesrentalPageModule' },
             {
                 path: 'property',
                 loadChildren: '../property/property.module#PropertyPageModule'
@@ -116,6 +121,9 @@ var routes = [
             { path: 'strategicplanning/strategicplan', loadChildren: '../strategicplan/strategicplan.module#StrategicplanPageModule' },
             { path: 'strategicplanning/stratoperationalplanning', loadChildren: '../stratoperationalplanning/stratoperationalplanning.module#StratoperationalplanningPageModule' },
             { path: 'strategicplanning/stratbusinessplanning', loadChildren: '../stratbusinessplanning/stratbusinessplanning.module#StratbusinessplanningPageModule' },
+            { path: 'strategicplanning/strategicvision', loadChildren: '../strategicvision/strategicvision.module#StrategicvisionPageModule' },
+            { path: 'strategicplanning/strategicmission', loadChildren: '../strategicmission/strategicmission.module#StrategicmissionPageModule' },
+            { path: 'strategicplanning/strategicconstitution', loadChildren: '../strategicconstitution/strategicconstitution.module#StrategicconstitutionPageModule' },
             {
                 path: 'strategicplanning',
                 loadChildren: '../strategicplanning/strategicplanning.module#StrategicplanningPageModule'
@@ -124,20 +132,20 @@ var routes = [
             { path: 'rdevelop/redevelproposals', loadChildren: '../redevelproposals/redevelproposals.module#RedevelproposalsPageModule' },
             { path: 'rdevelop/developapprovals', loadChildren: '../developapprovals/developapprovals.module#DevelopapprovalsPageModule' },
             { path: 'rdevelop/redevelopapprovals', loadChildren: '../redevelopapprovals/redevelopapprovals.module#RedevelopapprovalsPageModule' },
-            { path: 'rdevelsumissionstogovtitleholders', loadChildren: '../rdevelsumissionstogovtitleholders/rdevelsumissionstogovtitleholders.module#RdevelsumissionstogovtitleholdersPageModule' },
-            { path: 'rdevelapprovalsfromgovtitleholders', loadChildren: '../rdevelapprovalsfromgovtitleholders/rdevelapprovalsfromgovtitleholders.module#RdevelapprovalsfromgovtitleholdersPageModule' },
+            { path: 'rdevelop/rdevelsumissionstogovtitleholders', loadChildren: '../rdevelsumissionstogovtitleholders/rdevelsumissionstogovtitleholders.module#RdevelsumissionstogovtitleholdersPageModule' },
+            { path: 'rdevelop/rdevelapprovalsfromgovtitleholders', loadChildren: '../rdevelapprovalsfromgovtitleholders/rdevelapprovalsfromgovtitleholders.module#RdevelapprovalsfromgovtitleholdersPageModule' },
             { path: 'rdevelop/projectscheduling', loadChildren: '../projectscheduling/projectscheduling.module#ProjectschedulingPageModule' },
             { path: 'rdevelop/projectbudgeting', loadChildren: '../projectbudgeting/projectbudgeting.module#ProjectbudgetingPageModule' },
             { path: 'rdevelop/projectdesign', loadChildren: '../projectdesign/projectdesign.module#ProjectdesignPageModule' },
-            { path: 'rdevelopitems', loadChildren: '../rdevelopitems/rdevelopitems.module#RdevelopitemsPageModule' },
-            { path: 'rdevelopjobs', loadChildren: '../rdevelopjobs/rdevelopjobs.module#RdevelopjobsPageModule' },
-            { path: 'rdeveloppurchreq', loadChildren: '../rdeveloppurchreq/rdeveloppurchreq.module#RdeveloppurchreqPageModule' },
-            { path: 'rdeveloppurchorders', loadChildren: '../rdeveloppurchorders/rdeveloppurchorders.module#RdeveloppurchordersPageModule' },
-            { path: 'rdevelopfirstaid', loadChildren: '../rdevelopfirstaid/rdevelopfirstaid.module#RdevelopfirstaidPageModule' },
-            { path: 'rdevelopqualassurance', loadChildren: '../rdevelopqualassurance/rdevelopqualassurance.module#RdevelopqualassurancePageModule' },
-            { path: 'rdevelopteamboards', loadChildren: '../rdevelopteamboards/rdevelopteamboards.module#RdevelopteamboardsPageModule' },
-            { path: 'rdevelopprodschedules', loadChildren: '../rdevelopprodschedules/rdevelopprodschedules.module#RdevelopprodschedulesPageModule' },
-            { path: 'rdevelopconstrrequirements', loadChildren: '../rdevelopconstrrequirements/rdevelopconstrrequirements.module#RdevelopconstrrequirementsPageModule' },
+            { path: 'rdevelop/rdevelopitems', loadChildren: '../rdevelopitems/rdevelopitems.module#RdevelopitemsPageModule' },
+            { path: 'rdevelop/rdevelopjobs', loadChildren: '../rdevelopjobs/rdevelopjobs.module#RdevelopjobsPageModule' },
+            { path: 'rdevelop/rdeveloppurchreq', loadChildren: '../rdeveloppurchreq/rdeveloppurchreq.module#RdeveloppurchreqPageModule' },
+            { path: 'rdevelop/rdeveloppurchorders', loadChildren: '../rdeveloppurchorders/rdeveloppurchorders.module#RdeveloppurchordersPageModule' },
+            { path: 'rdevelop/rdevelopfirstaid', loadChildren: '../rdevelopfirstaid/rdevelopfirstaid.module#RdevelopfirstaidPageModule' },
+            { path: 'rdevelop/rdevelopqualassurance', loadChildren: '../rdevelopqualassurance/rdevelopqualassurance.module#RdevelopqualassurancePageModule' },
+            { path: 'rdevelop/rdevelopteamboards', loadChildren: '../rdevelopteamboards/rdevelopteamboards.module#RdevelopteamboardsPageModule' },
+            { path: 'rdevelop/rdevelopprodschedules', loadChildren: '../rdevelopprodschedules/rdevelopprodschedules.module#RdevelopprodschedulesPageModule' },
+            { path: 'rdevelop/rdevelopconstrrequirements', loadChildren: '../rdevelopconstrrequirements/rdevelopconstrrequirements.module#RdevelopconstrrequirementsPageModule' },
             { path: 'rdevelop/projectlegalities', loadChildren: '../projectlegalities/projectlegalities.module#ProjectlegalitiesPageModule' },
             { path: 'rdevelop/projectriskanalysis', loadChildren: '../projectriskanalysis/projectriskanalysis.module#ProjectriskanalysisPageModule' },
             { path: 'rdevelop/projectfinancialanalysis', loadChildren: '../projectfinancialanalysis/projectfinancialanalysis.module#ProjectfinancialanalysisPageModule' },
@@ -147,6 +155,7 @@ var routes = [
             { path: 'rdevelop/historyofredevfelopments', loadChildren: '../historyofredevelopments/historyofredevelopments.module#HistoryofredevelopmentsPageModule' },
             { path: 'rdevelop/combinedprojects', loadChildren: '../combinedprojects/combinedprojects.module#CombinedprojectsPageModule' },
             { path: 'rdevelop/combinedresources', loadChildren: '../combinedresources/combinedresources.module#CombinedresourcesPageModule' },
+            { path: 'rdevelop/rdvlpfundingsubmissions', loadChildren: '../rdvlpfundingsubmissions/rdvlpfundingsubmissions.module#RdvlpfundingsubmissionsPageModule' },
             { path: 'rdevelop/filing', loadChildren: '../filing/filing.module#FilingPageModule' },
             {
                 path: 'rdevelop',
@@ -168,6 +177,9 @@ var routes = [
             { path: 'sales/linktoconveyitsales', loadChildren: '../linktoconveyitsales/linktoconveyitsales.module#LinktoconveyitsalesPageModule' },
             { path: 'sales/keyregistersales', loadChildren: '../keyregistersales/keyregistersales.module#KeyregistersalesPageModule' },
             { path: 'sales/customercomplaint', loadChildren: '../customercomplaint/customercomplaint.module#CustomercomplaintPageModule' },
+            { path: 'sales/mortgageagreement', loadChildren: '../mortgageagreement/mortgageagreement.module#MortgageagreementPageModule' },
+            { path: 'sales/shequreceiveapplication', loadChildren: '../shequreceiveapplication/shequreceiveapplication.module#ShequreceiveapplicationPageModule' },
+            { path: 'sales/shequmakeoffertoapplicant', loadChildren: '../shequmakeoffertoapplicant/shequmakeoffertoapplicant.module#ShequmakeoffertoapplicantPageModule' },
             { path: 'sales/filing', loadChildren: '../filing/filing.module#FilingPageModule' },
             {
                 path: 'sales',
@@ -189,6 +201,7 @@ var routes = [
             { path: 'crm/privateinspections', loadChildren: '../privateinspections/privateinspections.module#PrivateinspectionsPageModule' },
             { path: 'crm/auctions', loadChildren: '../auctions/auctions.module#AuctionsPageModule' },
             { path: 'crm/customercomplaint', loadChildren: '../customercomplaint/customercomplaint.module#CustomercomplaintPageModule' },
+            { path: 'crm/registerlead', loadChildren: '../registerlead/registerlead.module#RegisterleadPageModule' },
             { path: 'crm/filing', loadChildren: '../filing/filing.module#FilingPageModule' },
             {
                 path: 'crm',
@@ -228,6 +241,8 @@ var routes = [
             { path: 'sharedequity/searchshequownersbyproperty', loadChildren: '../searchshequownersbyproperty/searchshequownersbyproperty.module#SearchshequownersbypropertyPageModule' },
             { path: 'sharedequity/searchshequownersbyname', loadChildren: '../searchshequownersbyname/searchshequownersbyname.module#SearchshequownersbynamePageModule' },
             { path: 'sharedequity/searchdocsbyshequowner', loadChildren: '../searchdocsbyshequowner/searchdocsbyshequowner.module#SearchdocsbyshequownerPageModule' },
+            { path: 'sharedequity/shequregistershequitymtgageagrmnt', loadChildren: '../shequregistershequitymtgageagrmnt/shequregistershequitymtgageagrmnt.module#ShequregistershequitymtgageagrmntPageModule' },
+            { path: 'sharedequity/searchdocsbyshequproperty', loadChildren: '../searchdocsbyshequproperty/searchdocsbyshequproperty.module#SearchdocsbyshequpropertyPageModule' },
             { path: 'sharedequity/filingshequ', loadChildren: '../filingshequ/filingshequ.module#FilingshequPageModule' },
             {
                 path: 'sharedequity',
@@ -277,6 +292,7 @@ var routes = [
             { path: 'tenancymngmnt/reportaftertribunal', loadChildren: '../reportaftertribunal/reportaftertribunal.module#ReportaftertribunalPageModule' },
             { path: 'tenancymngmnt/keyregistertenmngmnt', loadChildren: '../keyregistertenmngmnt/keyregistertenmngmnt.module#KeyregistertenmngmntPageModule' },
             { path: 'tenancymngmnt/tenantcomplaint', loadChildren: '../tenantcomplaint/tenantcomplaint.module#TenantcomplaintPageModule' },
+            { path: 'tenancymngmnt/maintreqtenmngmnt', loadChildren: '../maintreqtenmngmnt/maintreqtenmngmnt.module#MaintreqtenmngmntPageModule' },
             { path: 'tenancymngmnt/filingten', loadChildren: '../filingten/filingten.module#FilingtenPageModule' },
             {
                 path: 'tenancymngmnt',
@@ -305,6 +321,7 @@ var routes = [
             { path: 'assetmngmnt/searchsuppliertxes', loadChildren: '../searchsuppliertxes/searchsuppliertxes.module#SearchsuppliertxesPageModule' },
             { path: 'assetmngmnt/keyregisterassets', loadChildren: '../keyregisterassets/keyregisterassets.module#KeyregisterassetsPageModule' },
             { path: 'assetmngmnt/maintenancecomplaint', loadChildren: '../maintenancecomplaint/maintenancecomplaint.module#MaintenancecomplaintPageModule' },
+            { path: 'assetmngmnt/currentmaintquotes', loadChildren: '../currentmaintquotes/currentmaintquotes.module#CurrentmaintquotesPageModule' },
             { path: 'assetmngmnt/filingassets', loadChildren: '../filingassets/filingassets.module#FilingassetsPageModule' },
             {
                 path: 'assetmngmnt',
@@ -361,6 +378,10 @@ var routes = [
             { path: 'humanresources/workshopinduction', loadChildren: '../workshopinduction/workshopinduction.module#WorkshopinductionPageModule' },
             { path: 'humanresources/hrworkshop', loadChildren: '../hrworkshop/hrworkshop.module#HrworkshopPageModule' },
             { path: 'humanresources/workshopqualificationsregister', loadChildren: '../workshopqualificationsregister/workshopqualificationsregister.module#WorkshopqualificationsregisterPageModule' },
+            { path: 'humanresources/firstaidhr', loadChildren: '../firstaidhr/firstaidhr.module#FirstaidhrPageModule' },
+            { path: 'humanresources/rolesandemployees', loadChildren: '../rolesandemployees/rolesandemployees.module#RolesandemployeesPageModule' },
+            { path: 'humanresources/employeemediation', loadChildren: '../employeemediation/employeemediation.module#EmployeemediationPageModule' },
+            { path: 'humanresources/jobdescriptionshr', loadChildren: '../jobdescriptionshr/jobdescriptionshr.module#JobdescriptionshrPageModule' },
             { path: 'humanresources/filinghr', loadChildren: '../filinghr/filinghr.module#FilinghrPageModule' },
             {
                 path: 'humanresources',
@@ -374,6 +395,7 @@ var routes = [
             { path: 'timesheetsleave/myperformance', loadChildren: '../myperformance/myperformance.module#MyperformancePageModule' },
             { path: 'timesheetsleave/employeecomplaintbyemployee', loadChildren: '../employeecomplaintbyemployee/employeecomplaintbyemployee.module#EmployeecomplaintbyemployeePageModule' },
             { path: 'timesheetsleave/tenderresignation', loadChildren: '../tenderresignation/tenderresignation.module#TenderresignationPageModule' },
+            { path: 'timesheetsleave/myjobdescription', loadChildren: '../myjobdescription/myjobdescription.module#MyjobdescriptionPageModule' },
             { path: 'timesheetsleave/filingtsheets', loadChildren: '../filingtsheets/filingtsheets.module#FilingtsheetsPageModule' },
             {
                 path: 'timesheetsleave',
@@ -450,7 +472,9 @@ var routes = [
             { path: 'administration/mediacomplaint', loadChildren: '../mediacomplaint/mediacomplaint.module#MediacomplaintPageModule' },
             { path: 'administration/employeecomplaint', loadChildren: '../employeecomplaint/employeecomplaint.module#EmployeecomplaintPageModule' },
             { path: 'administration/maintenancecomplaint', loadChildren: '../maintenancecomplaint/maintenancecomplaint.module#MaintenancecomplaintPageModule' },
+            { path: 'administration/firstaidadmin', loadChildren: '../firstaidadmin/firstaidadmin.module#FirstaidadminPageModule' },
             { path: 'administration/filingadmin', loadChildren: '../filingadmin/filingadmin.module#FilingadminPageModule' },
+            { path: 'administration/issuerentreceiptsadmin', loadChildren: '../issuerentreceiptsadmin/issuerentreceiptsadmin.module#IssuerentreceiptsadminPageModule' },
             {
                 path: 'administration',
                 loadChildren: '../administration/administration.module#AdministrationPageModule'
@@ -532,6 +556,9 @@ var routes = [
             { path: 'reporting/vacantsvoidsreport', loadChildren: '../vacantsvoidsreport/vacantsvoidsreport.module#VacantsvoidsreportPageModule' },
             { path: 'reporting/reportceomultiflex', loadChildren: '../reportceomultiflex/reportceomultiflex.module#ReportceomultiflexPageModule' },
             { path: 'reporting/reportcfomultiflex', loadChildren: '../reportcfomultiflex/reportcfomultiflex.module#ReportcfomultiflexPageModule' },
+            { path: 'reporting/reportingwhsauditing', loadChildren: '../reportingwhsauditing/reportingwhsauditing.module#ReportingwhsauditingPageModule' },
+            { path: 'reporting/reportingacctspayableauditing', loadChildren: '../reportingacctspayableauditing/reportingacctspayableauditing.module#ReportingacctspayableauditingPageModule' },
+            { path: 'reporting/reportingacctsrecvableauditing', loadChildren: '../reportingacctsrecvableauditing/reportingacctsrecvableauditing.module#ReportingacctsrecvableauditingPageModule' },
             {
                 path: 'reporting',
                 loadChildren: '../reporting/reporting.module#ReportingPageModule'
@@ -579,7 +606,7 @@ var MenuPageModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".active-item {\n  border-left: 8px solid var(--ion-color-warning); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzL3NyYy9hcHAvcGFnZXMvbWVudS9tZW51LnBhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLCtDQUErQyxFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvbWVudS9tZW51LnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hY3RpdmUtaXRlbSB7XG4gICAgYm9yZGVyLWxlZnQ6IDhweCBzb2xpZCB2YXIoLS1pb24tY29sb3Itd2FybmluZyk7XG59XG4iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".active-item {\n  border-left: 8px solid var(--ion-color-warning); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzLjAuMDEvc3JjL2FwcC9wYWdlcy9tZW51L21lbnUucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksK0NBQStDLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9tZW51L21lbnUucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFjdGl2ZS1pdGVtIHtcbiAgICBib3JkZXItbGVmdDogOHB4IHNvbGlkIHZhcigtLWlvbi1jb2xvci13YXJuaW5nKTtcbn1cbiJdfQ== */");
 
 /***/ }),
 
@@ -626,6 +653,11 @@ var MenuPage = /** @class */ (function () {
                 icon: 'cog'
             },
             {
+                title: 'Strategic Planning',
+                url: '/menu/strategicplanning',
+                icon: 'locate'
+            },
+            {
                 title: 'Management of Risk',
                 url: '/menu/riskmngmnt',
                 icon: 'umbrella'
@@ -634,11 +666,6 @@ var MenuPage = /** @class */ (function () {
                 title: 'Property',
                 url: '/menu/property',
                 icon: 'business'
-            },
-            {
-                title: 'Strategic Planning',
-                url: '/menu/strategicplanning',
-                icon: 'locate'
             },
             {
                 title: '(Re)Development',

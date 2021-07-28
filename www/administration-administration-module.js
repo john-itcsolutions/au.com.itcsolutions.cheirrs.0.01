@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar>\n    <ion-buttons color=\"balance\" slot=\"start\">\n      <ion-menu-button color=\"tertiary\" ></ion-menu-button>\n    </ion-buttons>\n    <ion-text color=\"secondary\">\n    <ion-title><b>Administration</b></ion-title>\n    </ion-text>\n  </ion-toolbar>\n</ion-header>\n \n<ion-content padding>\n  <ion-button disabled=\"true\" expand=\"block\" color=\"secondary\"></ion-button>\n  <ion-button expand=\"block\" color=\"tertiary\" routerLink=\"/menu/administration/maintenancecomplaint\" routerDirection=\"forward\">\n    Please Make Selection \n   </ion-button>\n \n  <ion-list>\n    <ion-radio-group\n      allow-empty-selection = \"true\"\n      name=\"radio-group\"\n      (ionChange)=\"radioGroupChange($event)\"\n    >\n      <ion-list-header>\n        <ion-label>Administration Menu</ion-label>\n      </ion-list-header>\n  \n      <ion-item \n      *ngFor=\"let item of radio_list\" \n      (ionFocus)=\"radioFocus()\"\n      (ionSelect)=\"radioSelect($event)\"\n      (ionBlur)=\"radioBlur()\"\n      >\n        <ion-label>{{item.text}}</ion-label>\n        <ion-radio \n        slot=\"start\" \n        name=\"{{item.name}}\" \n        value=\"{{item.value}}\" \n        checked=\"{{item.checked}}\" \n        color=\"{{item.color}}\" \n        disabled=\"{{item.disabled}}\"\n        ></ion-radio>\n      </ion-item>\n  \n    </ion-radio-group>\n  </ion-list>\n \n  <p><b>Radio Group Event</b><br/>\n    {{selectedRadioGroup | json}}</p>\n  <p><b>Radio Item Event</b><br/>\n    {{selectedRadioItem | json}}</p>\n\n    <ion-button expand=\"block\" color=\"tertiary\" routerLink=\"/menu/administration/maintenancecomplaint\" routerDirection=\"forward\">\n     Please Make Selection \n    </ion-button>\n    <ion-button disabled=\"true\" expand=\"block\" color=\"secondary\"></ion-button>\n    \n</ion-content>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar>\n    <ion-buttons color=\"balance\" slot=\"start\">\n      <ion-menu-button color=\"tertiary\" ></ion-menu-button>\n    </ion-buttons>\n    <ion-text color=\"secondary\">\n    <ion-title><b>Administration</b></ion-title>\n    </ion-text>\n  </ion-toolbar>\n</ion-header>\n \n<ion-content padding>\n  <ion-button disabled=\"true\" expand=\"block\" color=\"secondary\"></ion-button>\n  <ion-button expand=\"block\" color=\"tertiary\" routerLink={{{value}}} routerDirection=\"forward\">\n    Please Make Selection \n   </ion-button>\n \n  <ion-list>\n    <ion-radio-group\n      allow-empty-selection = \"true\"\n      name=\"radio-group\"\n      (ionChange)=\"radioGroupChange($event)\"\n    >\n      <ion-list-header>\n        <ion-label>Administration Menu</ion-label>\n      </ion-list-header>\n  \n      <ion-item \n      *ngFor=\"let item of radio_list\" \n      (ionFocus)=\"radioFocus()\"\n      (ionSelect)=\"radioSelect($event)\"\n      (ionBlur)=\"radioBlur()\"\n      >\n        <ion-label>{{item.text}}</ion-label>\n        <ion-radio \n        slot=\"start\" \n        name=\"{{item.name}}\" \n        value=\"{{item.value}}\" \n        checked=\"{{item.checked}}\" \n        color=\"{{item.color}}\" \n        disabled=\"{{item.disabled}}\"\n        ></ion-radio>\n      </ion-item>\n  \n    </ion-radio-group>\n  </ion-list>\n \n  <p><b>Radio Group Event</b><br/>\n    {{selectedRadioGroup | json}}</p>\n  <p><b>Radio Item Event</b><br/>\n    {{selectedRadioItem | json}}</p>\n\n    <ion-button expand=\"block\" color=\"tertiary\" routerLink={{{value}}} routerDirection=\"forward\">\n     Please Make Selection \n    </ion-button>\n    <ion-button disabled=\"true\" expand=\"block\" color=\"secondary\"></ion-button>\n    \n</ion-content>");
 
 /***/ }),
 
@@ -80,7 +80,7 @@ var AdministrationPageModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("ion-item ion-label {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-datetime {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-input {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-textarea {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-radio-group {\n  border: solid 1px #662861;\n  border-radius: 5px; }\n\nion-item ion-radio {\n  border: solid 1px #662861;\n  border-radius: 10px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzL3NyYy9hcHAvcGFnZXMvYWRtaW5pc3RyYXRpb24vYWRtaW5pc3RyYXRpb24ucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRVEseUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixrQkFBa0IsRUFBQTs7QUFFekI7RUFFTyx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLGtCQUFrQixFQUFBOztBQUcxQjtFQUVRLHlCQUF5QjtFQUN6QiwrQkFBK0I7RUFDL0IsbUJBQW1CLEVBQUE7O0FBRXpCO0VBRU0seUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixtQkFBbUIsRUFBQTs7QUFFekI7RUFFTSx5QkFBeUI7RUFDekIsa0JBQWtCLEVBQUE7O0FBRXhCO0VBRU0seUJBQXlCO0VBQ3pCLG1CQUFtQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvYWRtaW5pc3RyYXRpb24vYWRtaW5pc3RyYXRpb24ucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWl0ZW17XG4gICAgaW9uLWxhYmVse1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggNHB4IDVweCAjZjVjZmI1O1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7IFxuICAgIH1cbn1pb24taXRlbXtcbiAgICBpb24tZGF0ZXRpbWV7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDsgXG4gICAgfVxufVxuaW9uLWl0ZW17XG4gICAgaW9uLWlucHV0e1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggNHB4IDVweCAjZjVjZmI1O1xuICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIH1cbiB9aW9uLWl0ZW17XG4gICAgaW9uLXRleHRhcmVhe1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggNHB4IDVweCAjZjVjZmI1O1xuICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIH1cbiB9aW9uLWl0ZW17XG4gICAgaW9uLXJhZGlvLWdyb3Vwe1xuICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjNjYyODYxO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tcmFkaW97XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("ion-item ion-label {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-datetime {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 5px; }\n\nion-item ion-input {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-textarea {\n  border: solid 1px #662861;\n  box-shadow: 0px 4px 5px #f5cfb5;\n  border-radius: 10px; }\n\nion-item ion-radio-group {\n  border: solid 1px #662861;\n  border-radius: 5px; }\n\nion-item ion-radio {\n  border: solid 1px #662861;\n  border-radius: 10px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvaG9tZS9wb3N0Z3Jlcy9QdWJsaWMvYXUuY29tLml0Y3NvbHV0aW9ucy5jaGVpcnJzLjAuMDEvc3JjL2FwcC9wYWdlcy9hZG1pbmlzdHJhdGlvbi9hZG1pbmlzdHJhdGlvbi5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFUSx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLGtCQUFrQixFQUFBOztBQUV6QjtFQUVPLHlCQUF5QjtFQUN6QiwrQkFBK0I7RUFDL0Isa0JBQWtCLEVBQUE7O0FBRzFCO0VBRVEseUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQixtQkFBbUIsRUFBQTs7QUFFekI7RUFFTSx5QkFBeUI7RUFDekIsK0JBQStCO0VBQy9CLG1CQUFtQixFQUFBOztBQUV6QjtFQUVNLHlCQUF5QjtFQUN6QixrQkFBa0IsRUFBQTs7QUFFeEI7RUFFTSx5QkFBeUI7RUFDekIsbUJBQW1CLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9hZG1pbmlzdHJhdGlvbi9hZG1pbmlzdHJhdGlvbi5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24taXRlbXtcbiAgICBpb24tbGFiZWx7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDsgXG4gICAgfVxufWlvbi1pdGVte1xuICAgIGlvbi1kYXRldGltZXtcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm94LXNoYWRvdzogMHB4IDRweCA1cHggI2Y1Y2ZiNTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4OyBcbiAgICB9XG59XG5pb24taXRlbXtcbiAgICBpb24taW5wdXR7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tdGV4dGFyZWF7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCA0cHggNXB4ICNmNWNmYjU7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgfVxuIH1pb24taXRlbXtcbiAgICBpb24tcmFkaW8tZ3JvdXB7XG4gICAgICAgIGJvcmRlcjogc29saWQgMXB4ICM2NjI4NjE7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICB9XG4gfWlvbi1pdGVte1xuICAgIGlvbi1yYWRpb3tcbiAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggIzY2Mjg2MTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICB9XG4gfSJdfQ== */");
 
 /***/ }),
 
@@ -126,365 +126,381 @@ var AdministrationPage = /** @class */ (function () {
             }, {
                 id: '1',
                 name: 'radio_list',
-                value: '/menu/administration/correspondence',
-                text: 'Correspondence',
+                value: '/menu/administration/issuerentreceiptsadmin',
+                text: 'Issue Rent Receipts',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '2',
                 name: 'radio_list',
-                value: '/menu/administration/employeeorsalesagentcontact',
-                text: 'Employee or Sales Agent Contact',
+                value: '/menu/administration/correspondence',
+                text: 'Correspondence',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '3',
                 name: 'radio_list',
-                value: '/menu/administration/employeeheaders',
-                text: 'Employee Headers',
+                value: '/menu/administration/employeeorsalesagentcontact',
+                text: 'Employee or Sales Agent Contact',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '4',
                 name: 'radio_list',
-                value: '/menu/administration/employeetransax',
-                text: 'Employee Transactions',
+                value: '/menu/administration/employeeheaders',
+                text: 'Employee Headers',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '5',
                 name: 'radio_list',
-                value: '/menu/administration/ownercontact',
-                text: 'Owner Contact',
+                value: '/menu/administration/employeetransax',
+                text: 'Employee Transactions',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '6',
                 name: 'radio_list',
-                value: '/menu/administration/ownerheader',
-                text: 'Owner Header',
+                value: '/menu/administration/ownercontact',
+                text: 'Owner Contact',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '7',
                 name: 'radio_list',
-                value: '/menu/administration/ownertxes',
-                text: 'Owner Transactions',
+                value: '/menu/administration/ownerheader',
+                text: 'Owner Header',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '8',
                 name: 'radio_list',
-                value: '/menu/administration/partnercontact',
-                text: 'Partner Contact',
+                value: '/menu/administration/ownertxes',
+                text: 'Owner Transactions',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '9',
                 name: 'radio_list',
-                value: '/menu/administration/partnerheaders',
-                text: 'Partner Headers',
+                value: '/menu/administration/partnercontact',
+                text: 'Partner Contact',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '10',
                 name: 'radio_list',
-                value: '/menu/administration/partnertxes',
-                text: 'Partner Transactions',
+                value: '/menu/administration/partnerheaders',
+                text: 'Partner Headers',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '11',
                 name: 'radio_list',
-                value: '/menu/administration/suppliercontact',
-                text: 'Supplier Contact',
+                value: '/menu/administration/partnertxes',
+                text: 'Partner Transactions',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '12',
                 name: 'radio_list',
-                value: '/menu/administration/supplierheaders',
-                text: 'Supplier Headers',
+                value: '/menu/administration/suppliercontact',
+                text: 'Supplier Contact',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '13',
                 name: 'radio_list',
-                value: '/menu/administration/suppliertxes',
-                text: 'Supplier Transactions',
+                value: '/menu/administration/supplierheaders',
+                text: 'Supplier Headers',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '14',
                 name: 'radio_list',
-                value: '/menu/administration/maintreq',
-                text: 'Maintenance Request',
+                value: '/menu/administration/suppliertxes',
+                text: 'Supplier Transactions',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '15',
                 name: 'radio_list',
-                value: '/menu/administration/salescontact',
-                text: 'Sales Contact',
+                value: '/menu/administration/maintreq',
+                text: 'Maintenance Request',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '16',
                 name: 'radio_list',
-                value: '/menu/administration/buyercontact',
-                text: 'Buyer Contact',
+                value: '/menu/administration/salescontact',
+                text: 'Sales Contact',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '17',
                 name: 'radio_list',
-                value: '/menu/administration/propertyheaders',
-                text: 'Property Headers',
+                value: '/menu/administration/buyercontact',
+                text: 'Buyer Contact',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '18',
                 name: 'radio_list',
-                value: '/menu/administration/propertytx',
-                text: 'Property Transactions',
+                value: '/menu/administration/propertyheaders',
+                text: 'Property Headers',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '19',
                 name: 'radio_list',
-                value: '/menu/administration/customerheaders',
-                text: 'Customer Headers',
+                value: '/menu/administration/propertytx',
+                text: 'Property Transactions',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '20',
                 name: 'radio_list',
-                value: '/menu/administration/custtransax',
-                text: 'Customer Transactions',
+                value: '/menu/administration/customerheaders',
+                text: 'Customer Headers',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '21',
                 name: 'radio_list',
-                value: '/menu/administration/employapplicantcontact',
-                text: 'Employment Applicant Contact',
+                value: '/menu/administration/custtransax',
+                text: 'Customer Transactions',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '22',
                 name: 'radio_list',
-                value: '/menu/administration/tenantcontact',
-                text: 'Tenant Contact',
+                value: '/menu/administration/employapplicantcontact',
+                text: 'Employment Applicant Contact',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '23',
                 name: 'radio_list',
-                value: '/menu/administration/leaseapplicantcontact',
-                text: 'Lease Applicant Contact',
+                value: '/menu/administration/tenantcontact',
+                text: 'Tenant Contact',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '24',
                 name: 'radio_list',
-                value: '/menu/administration/auditorcontact',
-                text: 'Auditor Contact',
+                value: '/menu/administration/leaseapplicantcontact',
+                text: 'Lease Applicant Contact',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '25',
                 name: 'radio_list',
-                value: '/menu/administration/communitycontact',
-                text: 'Community Contact',
+                value: '/menu/administration/auditorcontact',
+                text: 'Auditor Contact',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '26',
                 name: 'radio_list',
-                value: '/menu/administration/communityheaders',
-                text: 'Community Headers',
+                value: '/menu/administration/communitycontact',
+                text: 'Community Contact',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '27',
                 name: 'radio_list',
-                value: '/menu/administration/communitytxes',
-                text: 'Community Transactions',
+                value: '/menu/administration/communityheaders',
+                text: 'Community Headers',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '28',
                 name: 'radio_list',
-                value: '/menu/administration/mediacontact',
-                text: 'Media Contact',
+                value: '/menu/administration/communitytxes',
+                text: 'Community Transactions',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '29',
                 name: 'radio_list',
-                value: '/menu/administration/mediaheaders',
-                text: 'Media Headers',
+                value: '/menu/administration/mediacontact',
+                text: 'Media Contact',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '30',
                 name: 'radio_list',
-                value: '/menu/administration/mediatxes',
-                text: 'Media Transactions',
+                value: '/menu/administration/mediaheaders',
+                text: 'Media Headers',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '31',
                 name: 'radio_list',
-                value: '/menu/administration/govcontact',
-                text: 'Government Contact',
+                value: '/menu/administration/mediatxes',
+                text: 'Media Transactions',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '32',
                 name: 'radio_list',
-                value: '/menu/administration/govheaders',
-                text: 'Government Headers',
+                value: '/menu/administration/govcontact',
+                text: 'Government Contact',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '33',
                 name: 'radio_list',
-                value: '/menu/administration/govtxes',
-                text: 'Government Transactions',
+                value: '/menu/administration/govheaders',
+                text: 'Government Headers',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '34',
                 name: 'radio_list',
-                value: '/menu/administration/customercomplaint',
-                text: 'Customer Complaint',
+                value: '/menu/administration/govtxes',
+                text: 'Government Transactions',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '35',
                 name: 'radio_list',
-                value: '/menu/administration/llordinvestorcomplaint',
-                text: 'Landlord/Investor Complaint',
+                value: '/menu/administration/customercomplaint',
+                text: 'Customer Complaint',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '36',
                 name: 'radio_list',
-                value: '/menu/administration/leaseapplicantcomplaint',
-                text: 'Lease Applicant Complaint',
+                value: '/menu/administration/llordinvestorcomplaint',
+                text: 'Landlord/Investor Complaint',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '37',
                 name: 'radio_list',
-                value: '/menu/administration/employmentapplicantcomplaint',
-                text: 'Employment Applicant Complaint',
+                value: '/menu/administration/leaseapplicantcomplaint',
+                text: 'Lease Applicant Complaint',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '38',
                 name: 'radio_list',
-                value: '/menu/administration/tenantcomplaint',
-                text: 'Tenant Complaint',
+                value: '/menu/administration/employmentapplicantcomplaint',
+                text: 'Employment Applicant Complaint',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '39',
                 name: 'radio_list',
-                value: '/menu/administration/suppliercomplaint',
-                text: 'Supplier Complaint',
+                value: '/menu/administration/tenantcomplaint',
+                text: 'Tenant Complaint',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '40',
                 name: 'radio_list',
-                value: '/menu/administration/supportpartnercomplaint',
-                text: 'Support Partner Complaint',
+                value: '/menu/administration/suppliercomplaint',
+                text: 'Supplier Complaint',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '41',
                 name: 'radio_list',
-                value: '/menu/administration/governmentcomplaint',
-                text: 'Government Complaint',
+                value: '/menu/administration/supportpartnercomplaint',
+                text: 'Support Partner Complaint',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '42',
                 name: 'radio_list',
-                value: '/menu/administration/communitycomplaint',
-                text: 'Community Complaint',
+                value: '/menu/administration/governmentcomplaint',
+                text: 'Government Complaint',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '43',
                 name: 'radio_list',
-                value: '/menu/administration/mediacomplaint',
-                text: 'Media Complaint',
+                value: '/menu/administration/communitycomplaint',
+                text: 'Community Complaint',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '44',
                 name: 'radio_list',
-                value: '/menu/administration/employeecomplaint',
-                text: 'Employee Complaint',
+                value: '/menu/administration/mediacomplaint',
+                text: 'Media Complaint',
                 disabled: false,
                 checked: false,
                 color: 'primary'
             }, {
                 id: '45',
                 name: 'radio_list',
-                value: '/menu/administration/maintenancecomplaint',
-                text: 'Maintenance Complaint',
+                value: '/menu/administration/employeecomplaint',
+                text: 'Employee Complaint',
                 disabled: false,
                 checked: false,
                 color: 'secondary'
             }, {
                 id: '46',
+                name: 'radio_list',
+                value: '/menu/administration/maintenancecomplaint',
+                text: 'Maintenance Complaint',
+                disabled: false,
+                checked: false,
+                color: 'primary'
+            }, {
+                id: '47',
+                name: 'radio_list',
+                value: '/menu/administration/firstaidadmin',
+                text: 'First Aid',
+                disabled: false,
+                checked: false,
+                color: 'secondary'
+            }, {
+                id: '48',
                 name: 'radio_list',
                 value: '/menu/administration/filingadmin',
                 text: 'Filing',

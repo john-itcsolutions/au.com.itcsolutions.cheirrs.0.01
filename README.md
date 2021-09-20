@@ -12,7 +12,7 @@ There is a public repository at https://github.com/john-itcsolutions/cheirrs, to
 
 See the following figure:
 
-<img src="./kubernetesinstallation-21-09-2021-6.png">
+<img src="./kubernetesinstallation-21-09-2021-7.png">
 
 It is a Kubernetes-based repo, designed for intallation of a juju charms kubernetes system, with Blockchain-Database Server ('smart-web' installed directly on the kubernetes-workers), and also includes a KubeFlow/TensorFlow model for development of Machine Learning Workflows on a separate local virtual 'cloud' controller. The 2 controllers ('betrieb', and 'kubefluss') represent a very powerful basis upon which to build a multi-tenancy and multi-networked installation fully connected to the Elastos System of Blockchains for Distributed Identities (DID-SideChain), Main information recording (Main-Chain), Token exchange and storage (Token-SideChain) and the Ethereum Sidechain (ETH-SideChain) for Smart Contract Operations.
 

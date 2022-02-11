@@ -107,6 +107,12 @@ Keep in touch with 'Elastos.Essentials' development on github, at:
 
 _____________________________________________________________________________________
 
+The current state of our infrastructure can be represented as follows:
+
+<img src="./ITCSA_Plan.png">
+
+_____________________________________________________________________________________
+
 ## My LinkedIn:
 
 https://www.linkedin.com/in/john-lloyd-olsen/

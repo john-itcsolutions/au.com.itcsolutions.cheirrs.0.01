@@ -109,7 +109,7 @@ ________________________________________________________________________________
 
 The current state of our infrastructure can be represented as follows:
 
-<img src="./ITCSA_Plan.png">
+<img src="./ITCSA_Plan_2.png">
 
 _____________________________________________________________________________________
 

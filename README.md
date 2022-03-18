@@ -47,7 +47,7 @@ In production, clients will be able to connect on supported Mobile Devices (Andr
 au.com.itcsolutions.cheirrs is an Ionic dApp. As such you will need to install openjdk etc (Java), some development packages, npm and node version 12:
 ```
 # Base requirements 
-sudo apt -y install openjdk-11-jdk build-essential curl dirmngr apt-transport-https lsb-release ca-certificates
+sudo apt -y install openjdk-11-jdk build-essential curl dirmngr apt-transport-https lsb-release ca-certificates git
 # Install NodeJS 12 instead of 8 or 10
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt -y install nodejs

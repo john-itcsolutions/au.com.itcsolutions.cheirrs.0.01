@@ -47,7 +47,7 @@ In production, clients will be able to connect on supported Mobile Devices (Andr
 au.com.itcsolutions.cheirrs is an Ionic dApp. As such you will need to install openjdk etc (Java), some development packages, npm and node version 12:
 ```
 # Base requirements 
-sudo apt -y install openjdk-8-jdk build-essential curl dirmngr apt-transport-https lsb-release ca-certificates
+sudo apt -y install openjdk-11-jdk build-essential curl dirmngr apt-transport-https lsb-release ca-certificates
 # Install NodeJS 12 instead of 8 or 10
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt -y install nodejs
@@ -89,7 +89,11 @@ Our "smart-web" server (the heart of the Elastos System) is installed on kuberne
 
 The schematic Figure at the head of this article matches the above installation, as well as showing the various dApps planned-for in the future.
 
-Further instructions will become available as Elastos Essentials is developed.
+Further instructions will become available as Elastos Essentials is developed. At this stage we offer the following:
+
+In order to progress to a version of our dApp (at au.com.itcsolutions.cheirrs.0.01) that can provide connection to the Elastos DID, Hive and other systems, we have had to carefully insert this repo's files into a copy of the Elastos.Essentials repo locally (at Elastos.Essentials/App/src/). There are some files (such as src/app/app-routing.module.ts) which need to be merged very carefully. We also added a "pages" directory in src/app/ and copied all our hundreds of developed pages there. There is still work to be done in this area, but note that as we do not own the Elastos.Essentials wrapper app we are unable to host our own merged code on any git repo. This development seems to have to be completed entirely locally. 
+
+A selective approach must be taken when considering whether files should be copied as-is or not copied or merged with existing files at a finer-grained level. The benefits are that a secure and fully authenticated environment is gained for an otherwise straightforward Ionic App, where consumers/clients own their data in a hybrid web 2.0/web 3.0 arrangement. The web 2.0 part refers to the necessary centralised database in the cloud on Kubernetes, and the web 3.0 part refers to the blockchains and general Elastos connectivities.
 
 Access Ionic documentation for further information on developing in Ionic.
 

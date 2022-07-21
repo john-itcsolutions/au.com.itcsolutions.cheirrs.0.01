@@ -1,3 +1,15 @@
+## PLEASE NOTE THAT THIS REPO HAS MOVED TO:
+
+https://bitbucket.org/itotcca/au.com.itotcca.cheirrs.0.01
+
+Thanks.
+
+
+
+
+
+
+
 ## Complete Enterprise DApp for Community Housing in Australia, Housing Associations in UK, and, eventually, dApps for your Real Estate Agency, for general Conveyancing needs and for multi-networked Enterprise trading on smart contracts.
 
 # au.com.itcsolutions.cheirrs

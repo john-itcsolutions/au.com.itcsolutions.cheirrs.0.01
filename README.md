@@ -1,6 +1,6 @@
 ## PLEASE NOTE THAT THIS REPO HAS MOVED TO:
 
-https://bitbucket.org/itotcca/au.com.itotcca.cheirrs.0.01
+https://bitbucket.org/itotcca/au.com.itotchaincloud.cheirrs.0.01
 
 Thanks.
 
@@ -20,7 +20,7 @@ This repo has morphed into CHEIRRS, a community housing dApp still aiming to inc
 
 CHEIRRS stands for Community Housing Enterprise Information Recording and Reporting System. We also have plans to develop our 'The General' dApp, a multi-networked System of private intra- & inter-Enterprise accounting, with smart-contract-enabled trading and supply, alongside 'convey-IT', our proposed Land Title Registration dApp for Solicitors, Conveyancers, Agents, Developers, Financial Institutions, Buyers and Sellers. 
 
-There is a public repository at https://github.com/john-itcsolutions/cheirrs, to which the Front End in this repository (au.com.itcsolutions.cheirrs) is designed to connect.
+There is a public repository at https://bitbucket.org/itotcca-admin/cheirrs, to which the Front End in this repository (au.com.itcsolutions.cheirrs) is designed to connect.
 
 See the following figure:
 
